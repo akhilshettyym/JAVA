@@ -14,6 +14,9 @@ Web Applications (Spring Boot, JSP)
 Big Data & Machine Learning (Hadoop, Apache Spark)
 Game Development (Minecraft is written in Java).
 
+
+For classes we use Pascal convention and for functions we use camelCaseConvention
+
 2. Java Syntax
 Brief Overview
 Java syntax is based on C/C++, but with simpler memory management and strict object-oriented rules.
@@ -28,3 +31,38 @@ Detailed Breakdown
 public class HelloWorld – Declares a class named HelloWorld.
 public static void main(String[] args) – The main method where execution starts.
 System.out.println("Hello, Java!"); – Prints text to the console.
+
+3. Comments in Java
+Brief Overview
+Comments in Java are used to add explanatory notes that are ignored by the compiler.
+
+Types of Comments
+1. Single-line Comment (//)
+// This is a single-line comment
+System.out.println("Hello, Java!");
+
+
+2. Multi-line Comment (/* ... */)
+/* 
+This is a multi-line comment
+It spans multiple lines
+*/
+
+System.out.println("Hello, Java!");
+3. Documentation Comment (/** ... */)
+Used for generating documentation using Javadoc.
+
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+
+4. Variables in Java
+Brief Overview
+Variables are named memory locations used to store data. In Java, all variables must be declared before use.
+
+Declaring Variables
+int age = 25;  // Declaring an integer variable
+String name = "Akhil"; // Declaring a string variable
