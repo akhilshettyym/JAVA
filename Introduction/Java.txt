@@ -13,3 +13,18 @@ Android Development (via Android SDK)
 Web Applications (Spring Boot, JSP)
 Big Data & Machine Learning (Hadoop, Apache Spark)
 Game Development (Minecraft is written in Java).
+
+2. Java Syntax
+Brief Overview
+Java syntax is based on C/C++, but with simpler memory management and strict object-oriented rules.
+
+// Java Program Example
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!"); // Prints output
+    }
+}
+Detailed Breakdown
+public class HelloWorld – Declares a class named HelloWorld.
+public static void main(String[] args) – The main method where execution starts.
+System.out.println("Hello, Java!"); – Prints text to the console.
