@@ -17,7 +17,6 @@ Game Development (Minecraft is written in Java).
 
 For classes we use Pascal convention and for functions we use camelCaseConvention
 
-
 Detailed Breakdown
 public class HelloWorld – Declares a class named HelloWorld.
 public static void main(String[] args) – The main method where execution starts.
@@ -43,12 +42,12 @@ System.out.println("Hello, Java!");
 3. Documentation Comment (/** ... */)
 Used for generating documentation using Javadoc.
 
-
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, Java!");
     }
 }
+
 
 4. Variables in Java
 Brief Overview
@@ -76,4 +75,3 @@ Non-Primitive Data Types :
 Strings: String name = "Java";
 Arrays: int[] numbers = {1, 2, 3, 4};
 Objects: Person p = new Person();
-
