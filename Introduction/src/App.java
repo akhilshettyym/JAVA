@@ -27,6 +27,7 @@ public class App {
         float f1 = 5.6f;
         double d1 = 4.66D;
         long ageDino = 123456789l;
+
         System.out.println(age_1);
         System.out.println(name);
         System.out.println(f1);

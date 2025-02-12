@@ -17,16 +17,7 @@ Game Development (Minecraft is written in Java).
 
 For classes we use Pascal convention and for functions we use camelCaseConvention
 
-2. Java Syntax
-Brief Overview
-Java syntax is based on C/C++, but with simpler memory management and strict object-oriented rules.
 
-// Java Program Example
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, Java!"); // Prints output
-    }
-}
 Detailed Breakdown
 public class HelloWorld – Declares a class named HelloWorld.
 public static void main(String[] args) – The main method where execution starts.
