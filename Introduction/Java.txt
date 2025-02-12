@@ -1,0 +1,15 @@
+1. Introduction to Java
+Brief Overview
+Java is a high-level, object-oriented programming language developed by James Gosling at Sun Microsystems (now owned by Oracle) in 1995. It is platform-independent due to the Java Virtual Machine (JVM), which allows code to run on any operating system.
+
+Key Features of Java
+Platform Independent – Uses JVM to run anywhere (Write Once, Run Anywhere).
+Object-Oriented – Supports Encapsulation, Inheritance, Polymorphism, and Abstraction.
+Secure – Includes built-in security features and memory management.
+Robust & Multithreaded – Manages memory automatically and supports multiple threads.
+Widely Used – Used in web applications, mobile development (Android), and enterprise software.
+Example Applications of Java
+Android Development (via Android SDK)
+Web Applications (Spring Boot, JSP)
+Big Data & Machine Learning (Hadoop, Apache Spark)
+Game Development (Minecraft is written in Java).
