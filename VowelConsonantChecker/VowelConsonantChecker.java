@@ -1,3 +1,5 @@
+// Write a program to Check whether a character is a vowel or consonant using switch statement
+
 import java.util.Scanner;
 
 public class VowelConsonantChecker {
