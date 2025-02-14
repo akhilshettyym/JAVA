@@ -1,0 +1,14 @@
+🔹 Java Syntax & Basics
+A basic Java program looks like this:
+
+
+// My First Java Program
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); // Prints output
+    }
+}
+📌 Explanation
+1️⃣ public class HelloWorld – Defines a class named HelloWorld.
+2️⃣ public static void main(String[] args) – The main method is the entry point of every Java program.
+3️⃣ System.out.println("Hello, World!"); – Prints output to the console.
