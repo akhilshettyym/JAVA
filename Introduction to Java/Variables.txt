@@ -1,0 +1,11 @@
+🔹 Java Variables & Data Types
+🔹 Variables
+A variable stores values like numbers, text, or boolean values.
+
+📌 Syntax:
+datatype variableName = value
+
+📌 Example:
+int age = 25;           // Integer variable
+String name = "John";   // String variable
+float price = 99.99f;   // Floating-point variable
