@@ -11,5 +11,6 @@ public class ReversedString {
         }
         System.out.println("The reveresed string is :" + reversed);
         // System.out.println(reversed);
+        sc.close();
     }
 }

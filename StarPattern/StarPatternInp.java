@@ -17,5 +17,6 @@ public class StarPatternInp {
             }
         System.out.println();
         }
+        sc.close();
     }
 }
