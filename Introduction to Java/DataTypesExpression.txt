@@ -29,3 +29,22 @@ public class DataTypesExample {
         System.out.println("Passed: " + isPassed);
     }
 }
+
+
+Non-Primitive Data Types (Reference Types)
+These store references to objects rather than actual values.
+
+Data Type	Example
+String	String name = "Java";
+Arrays	int[] numbers = {1, 2, 3};
+Classes	MyClass obj = new MyClass();
+✅ Example: Using Non-Primitive Data Types
+public class NonPrimitiveExample {
+    public static void main(String[] args) {
+        String message = "Hello, Java!";
+        int[] numbers = {10, 20, 30};
+
+        System.out.println("Message: " + message);
+        System.out.println("First Number: " + numbers[0]);
+    }
+}
