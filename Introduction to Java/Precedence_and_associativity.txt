@@ -13,3 +13,30 @@ Output:t
 🔹 Why?
 * (Multiplication) has higher precedence than + (Addition).
 So, 2 * 5 is calculated first → 10 + 10 = 20.
+
+
+2. Operator Associativity
+When two operators have the same precedence, Java follows associativity rules:
+
+Left to Right associativity (most cases).
+Right to Left associativity (for assignment and unary operators).
+✅ Example (Left to Right Associativity):
+int result = 100 / 5 * 2;
+System.out.println(result);
+Output:
+40
+🔹 Why?
+
+/ and * have equal precedence.
+Left to Right execution:
+100 / 5 = 20 → 20 * 2 = 40.
+✅ Example (Right to Left Associativity - Assignment):
+int a, b, c;
+a = b = c = 10;
+System.out.println(a + " " + b + " " + c);
+Output:
+10 10 10
+🔹 Why?
+
+= (assignment) has Right to Left associativity.
+So, c = 10 → b = c → a = b.
