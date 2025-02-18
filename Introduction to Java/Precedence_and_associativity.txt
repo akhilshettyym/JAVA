@@ -40,3 +40,22 @@ Output:
 
 = (assignment) has Right to Left associativity.
 So, c = 10 → b = c → a = b.
+
+
+Operator Precedence Table
+Precedence	        Operator	            Associativity	Example
+1 (Highest)	        () [] .	                Left to Right	a[0], obj.method()
+2	                ++ -- + - ! ~	        Right to Left	++a, !flag
+3	                * / %	                Left to Right	a * b, x % y
+4	                + -	                    Left to Right	a + b, x - y
+5	                << >> >>>	            Left to Right	a << 2, b >> 3
+6	                < <= > >=	            Left to Right	a > b, x <= y
+7	                == !=	                Left to Right	a == b, x != y
+8	                &	                    Left to Right	a & b
+9	                ^	                    Left to Right	a ^ b
+10	                `	`	                Left to Right
+11	                &&	                    Left to Right	a && b
+12	                `		                    `
+13	                ? :	                    Right to Left	a > b ? x : y
+14	                = += -= *= /= %=	    Right to Left	a += b, x *= y
+15 (Lowest)	        ,	                    Left to Right	a++, b++
