@@ -111,3 +111,76 @@ Double.parseDouble(str)	double d = Double.parseDouble("3.14");	3.14
 String numStr = "200";
 int num = Integer.parseInt(numStr);
 System.out.println(num); // Output: 200
+
+String Basics
+Strings in java is a sequence of characters that Is enclosed in double quotes. Whenever java comes across a String literal in the code, it creates a string literal with the value of string.
+
+Example:
+
+public class string {
+    public static void main(String[] args) {
+        String name;
+        name = "Diablo";
+        System.out.println("My name is " + name);
+    }
+}
+Output:
+
+My name is Diablo
+ 
+
+The same can be done using an array of characters.
+
+Example:
+
+public class string {
+    public static void main(String[] args) {
+        char[] name = {'D', 'i', 'a', 'b', 'l', 'o'};
+        String welcomeMsg = new String(name);  
+        System.out.println("Welcome " + welcomeMsg);
+    }
+}
+Output:
+Welcome Diablo
+Concatenate Strings:
+Concatenation between two strings in java is done using the + operator.
+
+Example:
+public class string {
+    public static void main(String[] args) {
+        String fname, lname;
+        fname = "Diablo";
+        lname = "Ramirez";
+        System.out.println(fname + " " + lname);
+    }
+}
+Output:
+Diablo Ramirez
+ 
+
+Alternatively, we can use the concat() method to concatenate two strings.
+Example:
+public class string {
+    public static void main(String[] args) {
+        String fname, lname;
+        fname = "Diablo";
+        lname = " Ramirez";
+        System.out.println(fname.concat(lname));
+    }
+}
+Output:
+What if we concatenate string with an integer?
+
+Well concatenating a string and an integer will give us a string.
+Example:
+public class string {
+    public static void main(String[] args) {
+        String name;
+        int quantity;
+        quantity = 12;
+        name = " Apples";
+        System.out.println(quantity + name);
+    }
+}
+Output:
+12 Apples
