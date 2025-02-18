@@ -21,4 +21,3 @@ public class elseIf {
         sc.close();
     }    
 }
-
