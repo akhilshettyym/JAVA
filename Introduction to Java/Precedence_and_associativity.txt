@@ -1,0 +1,15 @@
+Precedence_and_associativity.txt
+
+Precedence and Associativity in Java
+When evaluating expressions, Java follows specific rules to decide which operators execute first. These rules are called Operator Precedence and Associativity.
+🔹 1. Operator Precedence
+Operator precedence determines which operator is executed first in an expression that contains multiple operators.
+
+✅ Example:
+int result = 10 + 2 * 5;  
+System.out.println(result);
+Output:t
+20
+🔹 Why?
+* (Multiplication) has higher precedence than + (Addition).
+So, 2 * 5 is calculated first → 10 + 10 = 20.
