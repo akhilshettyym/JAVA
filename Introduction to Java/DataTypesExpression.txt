@@ -48,3 +48,23 @@ public class NonPrimitiveExample {
         System.out.println("First Number: " + numbers[0]);
     }
 }
+
+
+Expressions in Java
+An expression is a combination of variables, operators, and values that Java evaluates to produce a single result.
+
+✅ Example of Simple Expressions
+int a = 10;
+int b = 5;
+int sum = a + b;  // Expression: 10 + 5 = 15
+int product = a * b; // Expression: 10 * 5 = 50
+Types of Expressions:
+1️⃣ Arithmetic Expressions (Mathematical calculations)
+int x = 10 + 5 * 2; // Multiplication first, then addition
+2️⃣ Relational Expressions (Comparison, returns true or false)
+boolean result = (10 > 5); // true
+3️⃣ Logical Expressions (AND, OR, NOT operations)
+boolean isAdult = (age >= 18) && (height > 5.5);
+4️⃣ Assignment Expressions (Assigning values to variables)
+int num = 10;
+num += 5; // Equivalent to num = num + 5;
