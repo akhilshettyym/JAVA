@@ -1,6 +1,6 @@
 package Loops;
 
-public class DoWhile {
+public class For {
     public static void main(String[] args) {
         // Demonstrating while loop
         int a = 0;
