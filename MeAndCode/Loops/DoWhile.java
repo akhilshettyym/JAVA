@@ -1,4 +1,4 @@
-package Loops;
+package MeAndCode.Loops;
 
 public class DoWhile {
     public static void main(String[] args) {

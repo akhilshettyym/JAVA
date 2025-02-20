@@ -18,7 +18,7 @@ You can also override methods in enum.
 
 
 
-package Enums;
+package MeAndCode.Enums;
 
 enum day {
     sunday, monday, tuesday, wednesday, thursday, friday, saturday

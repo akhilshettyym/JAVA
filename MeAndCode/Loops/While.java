@@ -1,4 +1,4 @@
-package Loops;
+package MeAndCode.Loops;
 
 public class While {
     public static void main(String[] args) {

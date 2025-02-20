@@ -1,4 +1,4 @@
-package Loops;
+package MeAndCode.Loops;
 
 public class For {
     public static void main(String[] args) {

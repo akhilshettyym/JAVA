@@ -1,4 +1,4 @@
-package ConditionalStatements;
+package MeAndCode.ConditionalStatements;
 import java.util.Scanner;
 
 public class elseIf {
