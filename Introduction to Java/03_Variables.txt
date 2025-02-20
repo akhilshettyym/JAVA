@@ -106,3 +106,8 @@ class FinalVariableExample {
         // obj.finalVar = 300; // ❌ Error: Cannot change final variable
     }
 }
+
+Local variables exist only inside methods and need to be initialized before use.
+Instance variables belong to objects and have default values.
+Static variables belong to the class and are shared among all instances.
+Final variables are constants and cannot be changed after assignment.
