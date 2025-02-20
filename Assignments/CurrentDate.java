@@ -1,9 +1,11 @@
 package Assignments;
-import java.time.LocalDate;
+// import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 public class CurrentDate {
     public static void main(String[] args) {
-        LocalDate today = LocalDate.now();      // To get the current date
+
+        LocalDateTime today = LocalDateTime.now();      // To get the current date and i also did time
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy"); // To define the format 
         String formattedDate = today.format(formatter);
         System.out.println("Current Date: " + formattedDate);
@@ -12,8 +14,8 @@ public class CurrentDate {
         String formattedDatee = today.format(formatterr);
         System.out.println("Current Date: " + formattedDatee);
 
-        DateTimeFormatter formatterrr = DateTimeFormatter.ofPattern("yyyy-MM-dd"; "hrs:min:sec"); // (different format)
+        DateTimeFormatter formatterrr = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"); // With time
         String formattedDateee = today.format(formatterrr);
-        System.out.println("Current Date: " + formattedDateee);
+        System.out.println("Current Date and time : " + formattedDateee);
     }
 }
