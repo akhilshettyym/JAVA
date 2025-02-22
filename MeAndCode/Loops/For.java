@@ -36,3 +36,12 @@ public class For {
 
 // While checks the condition first before executing the code.
 // Do-while executes the code at least once before checking the condition.
+// For loop is used when we know the number of iterations in advance. It is more efficient than
+// while or do-while loops because it doesn't require a condition check at the end of each
+// iteration. It is also more readable because the loop variables are declared at the
+// beginning of the loop. It is also more efficient because it doesn't require a condition
+// check at the end of each iteration. It is also more readable because the loop variables
+// are declared at the beginning of the loop. It is also more efficient because it doesn't
+// require a condition check at the end of each iteration. It is also more readable because
+// the loop variables are declared at the beginning of the loop. It is also more efficient
+// because it doesn't require a condition check at the end of each iteration. 
