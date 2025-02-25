@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments.Feb_12;
 import java.util.Scanner;
 public class ReversedString {
     public static void main(String[] args) {

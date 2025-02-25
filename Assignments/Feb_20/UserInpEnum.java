@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments.Feb_20;
 import java.util.Scanner;
 
 enum Day {

@@ -1,4 +1,4 @@
-package Assignments;
+package Assignments.Others;
 import java.util.ArrayList;
 import java.util.Collections;
 public class AutoBoxing {
