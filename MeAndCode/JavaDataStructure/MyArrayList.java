@@ -1,5 +1,6 @@
-package Assignments;
+package MeAndCode.JavaDataStructure;
 import java.util.ArrayList;
+import java.util.Collections;
 public class MyArrayList {
     public static void main(String[] args) {
         ArrayList<String> students = new ArrayList<String>();
@@ -43,6 +44,18 @@ public class MyArrayList {
             System.out.println(i);
         }
 
+
+        // By using above example try to sort the values (ascending order and descending order).
+        System.out.println("---------------------------------------------------------------");
+        System.out.println("By using above example try to sort the values (ascending order)");
+        Collections.sort(students);
+        System.out.println(students);
+        System.out.println("---------------------------------------------------------------");
+        System.out.println("By using above example try to sort the values (descending order)");
+        Collections.sort(students, Collections.reverseOrder());
+        System.out.println(students);
+        // ************************************************************************************
+
         System.out.println("---------------------------------");
         System.out.println("Removing an element from the list.");
         System.out.println(students.remove(6));                 
@@ -51,5 +64,5 @@ public class MyArrayList {
         students.clear();                                            
         System.out.println(students);
         System.out.println("---------------------------------");
-}
+    }
 }
