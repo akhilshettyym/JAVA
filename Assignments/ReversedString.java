@@ -1,3 +1,4 @@
+package Assignments;
 import java.util.Scanner;
 public class ReversedString {
     public static void main(String[] args) {

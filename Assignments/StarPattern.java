@@ -1,3 +1,4 @@
+package Assignments;
 // Write a program to display ‘*’  in below pattern:
 public class StarPattern {
     public static void main (String[] args){

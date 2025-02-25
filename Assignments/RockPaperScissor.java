@@ -1,4 +1,4 @@
-package Assignments.RockPaperScissor;
+package Assignments;
 import java.util.Random;
 import java.util.Scanner;
 public class RockPaperScissor {
