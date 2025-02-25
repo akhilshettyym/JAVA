@@ -2,7 +2,7 @@
 package MeAndCode.JavaDataStructure;
 import java.util.LinkedList;
 import java.util.Collections;
-public class MyLinkedList {
+public class MyLinkedList_02 {
     public static void main(String[] args) {
         LinkedList<Integer> marks = new LinkedList<Integer>();
         marks.add(90);

@@ -2,7 +2,7 @@ package MeAndCode.JavaDataStructure;
 
 import java.util.ArrayList;
 
-public class UniqueElements {
+public class UniqueElements_03 {
     public static void main(String[] args) {
         ArrayList<String> list1 = new ArrayList<>();
         list1.add("car");
