@@ -4,7 +4,7 @@ Ex: Input: List1 = [car, bike, bus, train, truck]    List2 = [car, bike ,train, 
 Output: NewList = [bus] */
 import java.util.ArrayList;
 
-public class UniqueElements_03 {
+public class UniqueElements {
     public static void main(String[] args) {
         ArrayList<String> list1 = new ArrayList<>();
         list1.add("car");
