@@ -21,7 +21,7 @@ class SortMarks implements Comparator<Stud>{
     }
 }
 
-public class StudList {
+public class StudComparator {
     public static void main(String[] args) {
         ArrayList<Stud> myMarks = new ArrayList<Stud>();
         myMarks.add(new Stud("Akhil", 5, 95));
