@@ -36,7 +36,7 @@ class SortByYear implements Comparator<Car> {
     }
 }
 
-public class Comparator_10 {
+public class Comparator_02 {
     public static void main(String[] args) { 
         // Create a list of cars
         ArrayList<Car> myCars = new ArrayList<>();  // <> (diamond operator) for cleaner syntax
