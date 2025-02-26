@@ -3,7 +3,7 @@ package MeAndCode.JavaDataStructure;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class JavaListSorting_03 {
+public class ListSorting_03 {
     public static void main(String[] args) {
         
         System.out.println("---------------------------------------------------------------");

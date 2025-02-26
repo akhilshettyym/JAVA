@@ -3,7 +3,7 @@ package MeAndCode.JavaDataStructure;
 To use an Iterator, you must import it from the java.util package. */
 import java.util.Iterator;
 import java.util.ArrayList;
-public class JavaIterator_06 {
+public class Iterator_06 {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<String>();
     cars.add("Volvo");

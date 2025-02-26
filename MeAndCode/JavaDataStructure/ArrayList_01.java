@@ -1,7 +1,7 @@
 package MeAndCode.JavaDataStructure;
 import java.util.ArrayList;
 import java.util.Collections;
-public class JavaArrayList_01 {
+public class ArrayList_01 {
     public static void main(String[] args) {
         ArrayList<String> students = new ArrayList<String>();
         students.add("Akhil");

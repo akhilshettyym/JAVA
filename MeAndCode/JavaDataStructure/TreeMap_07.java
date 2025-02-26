@@ -1,7 +1,7 @@
 package MeAndCode.JavaDataStructure;
 import java.util.Collections;
 import java.util.TreeMap;
-public class JavaTreeMap_07 {
+public class TreeMap_07 {
     public static void main(String[] args) {
         TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 

@@ -6,7 +6,7 @@ One object is used as a key (index) to another object (value). It can store diff
 
 
 import java.util.HashMap;
-public class JavaHashMap_04 {
+public class HashMap_04 {
     public static void main(String[] args) {
         // Creation of HashMap Object called capital Cities
         HashMap <String, String> capitalCities = new HashMap<String, String>();

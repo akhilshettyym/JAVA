@@ -1,6 +1,6 @@
 package MeAndCode.JavaDataStructure;
 import java.util.TreeSet;
-public class JavaTreeSet_08 {
+public class TreeSet_08 {
     public static void main(String[] args) {
         // Creating a TreeSet of Strings
         TreeSet<String> treeSet = new TreeSet<String>();

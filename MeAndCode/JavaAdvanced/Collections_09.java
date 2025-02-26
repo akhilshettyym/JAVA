@@ -2,7 +2,7 @@ package MeAndCode.JavaAdvanced;
 
 import java.util.*;  // Importing all Java utility classes, including Collections
 
-public class JavaCollections_09 {
+public class Collections_09 {
     public static void main(String[] args) {
         // ---------------------- LIST INTERFACE ----------------------
         // ArrayList Example (Dynamic array that allows duplicate elements)
