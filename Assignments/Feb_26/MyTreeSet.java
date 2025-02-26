@@ -1,6 +1,6 @@
 package Assignments.Feb_26;
 import java.util.TreeSet;
-public class MySetTree {
+public class MyTreeSet {
     public static void main(String[] args) {
         TreeSet<Integer> SetTree = new TreeSet<Integer>();
         SetTree.add(70);
