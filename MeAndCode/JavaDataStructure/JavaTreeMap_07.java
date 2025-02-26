@@ -11,4 +11,4 @@ public class JavaTreeMap_07 {
         System.out.println(number);
     }
 }
-// Automatically sort in order according to the keys
+// Automatically sort in order according to the keys and no duplication.
