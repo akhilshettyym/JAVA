@@ -5,6 +5,8 @@ package Assignments.Feb_27;
  * This program intentionally throws different runtime exceptions 
  * like ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, 
  * ArrayStoreException, and ClassCastException.
+ * 
+ * 3. write a program to throw all the runtime exceptions like ArithmeticException, NullPointerException, ArrayIndexOutOfBoundException, ArrayStoreException and ClassCastException.
  */
 
 public class RuntimeExcep {
