@@ -12,7 +12,7 @@ public class RuntimeExcep {
         throw new ArithmeticException("Cannot divide by zero!");
     }
     
-    // 2. Throws NullPointerException
+    // Throws NullPointerException
     static void throwNullPointerException() {
         System.out.println("\nThrowing NullPointerException...");
         String str = null;
@@ -20,27 +20,27 @@ public class RuntimeExcep {
             throw new NullPointerException("Attempted to access a null object!");
         }
     }
-    // 3. Throws ArrayIndexOutOfBoundsException (Fix: Actually use arr)
+    // ArrayIndexOutOfBoundsException
     static void throwArrayIndexOutOfBoundsException() {
         System.out.println("\nThrowing ArrayIndexOutOfBoundsException...");
         int[] arr = {1, 2, 3};
-        int value = arr[5]; // Attempting to access an invalid index
-        System.out.println("Value at index 5: " + value); // This line won't be reached
+        int value = arr[5]; // accessing an invalid index
+        System.out.println("Value at index 5: " + value); // line won't be reached
     }
 
-    // 4. Throws ArrayStoreException
+    // Throws ArrayStoreException
     static void throwArrayStoreException() {
         System.out.println("\nThrowing ArrayStoreException...");
-        Object[] objArray = new Integer[5]; // Integer array stored as Object[]
-        objArray[0] = "Hello"; // This causes ArrayStoreException
+        Object[] objArray = new Integer[5];
+        objArray[0] = "Hello";
     }
 
-    // 5. Throws ClassCastException
+    // Throws ClassCastException
     static void throwClassCastException() {
         System.out.println("\nThrowing ClassCastException...");
         Object obj = "Hello";
         if (obj instanceof Integer) {
-            Integer num = (Integer) obj; // Will not be executed.
+            Integer num = (Integer) obj;
             System.out.println("Converted value: " + num);
         } else {
             throw new ClassCastException("Cannot cast String to Integer!");

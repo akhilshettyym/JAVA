@@ -7,7 +7,7 @@ public class NumberDup {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        HashSet<Integer> numbers = new HashSet<Integer>(); // cuz no duplicates
+        HashSet<Integer> numbers = new HashSet<Integer>(); // cuz allows no duplicates
 
         System.out.println("Enter numbers separated by spaces: ");
         String[] input = sc.nextLine().split(" ");
