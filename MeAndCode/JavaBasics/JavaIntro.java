@@ -23,7 +23,6 @@ Why Use Java?
 - It is open-source and free
 - It is secure, fast and powerful
 - It has huge community support (tens of millions of developers)
-
 Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
 As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
 Java is a platform independent language, which means that it can run on any platform that has a Java
