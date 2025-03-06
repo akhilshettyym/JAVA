@@ -1,4 +1,4 @@
-package MeAndCode.JavaDataStructure;
+// package MeAndCode.JavaDataStructure;
 import java.util.ArrayList;
 import java.util.Collections;
 public class ArrayList_01 {

@@ -1,4 +1,4 @@
-package MeAndCode.JavaAdvanced;
+
 
 /*The throw keyword
 The throw statement allows you to create a custom error.

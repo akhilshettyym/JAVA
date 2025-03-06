@@ -1,4 +1,4 @@
-package MeAndCode.JavaAdvanced;
+
 
 /* 
  * To sort objects, we need to define a rule that determines the sorting order.

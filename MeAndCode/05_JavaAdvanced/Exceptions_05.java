@@ -1,4 +1,4 @@
-package MeAndCode.JavaAdvanced;
+
 
 /**
  * Java Exceptions

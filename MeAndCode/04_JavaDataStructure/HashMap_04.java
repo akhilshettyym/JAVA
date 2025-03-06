@@ -1,4 +1,4 @@
-package MeAndCode.JavaDataStructure;
+// package MeAndCode.JavaDataStructure;
 /*Java HashMap
 In the ArrayList, Arrays store items as an ordered collection, and you have to access them with an index number (int type). A HashMap however, store items in "key/value" pairs, and you can access them by an index of another type (e.g. a String).
 

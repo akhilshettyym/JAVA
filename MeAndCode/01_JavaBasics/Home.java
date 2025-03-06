@@ -1,6 +1,4 @@
-package MeAndCode.JavaBasics;
-
-public class JavaHome {
+public class Home {
     /*Learn Java
     Java is a popular programming language.
     

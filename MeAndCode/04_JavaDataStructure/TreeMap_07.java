@@ -1,4 +1,4 @@
-package MeAndCode.JavaDataStructure;
+// package MeAndCode.JavaDataStructure;
 import java.util.Collections;
 import java.util.TreeMap;
 public class TreeMap_07 {

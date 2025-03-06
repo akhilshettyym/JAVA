@@ -1,4 +1,5 @@
-package MeAndCode.JavaAdvanced; 
+
+ 
 
 /*
  * The Comparable interface allows an object to define its own sorting rule using the compareTo() method.

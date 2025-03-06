@@ -1,4 +1,4 @@
-package MeAndCode.JavaDataStructure;
+// package MeAndCode.JavaDataStructure;
 // A HashSet is a collection of items where every item is unique, and it is found in the java.util package:
 // If added twice it only appears once in the set because every item in a set has to be unique.
 import java.util.HashSet;
