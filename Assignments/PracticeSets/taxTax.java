@@ -1,4 +1,4 @@
-package PracticeSets;
+// package PracticeSets;
 import java.util.Scanner;
 
 public class taxTax {

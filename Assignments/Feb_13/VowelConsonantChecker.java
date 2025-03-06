@@ -1,4 +1,4 @@
-package Assignments.Feb_13;
+// package Assignments.Feb_13;
 // package Assignments.VowelConsonantChecker;
 // // Write a program to Check whether a character is a vowel or consonant using switch statement
 

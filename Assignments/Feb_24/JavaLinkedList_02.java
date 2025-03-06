@@ -1,5 +1,5 @@
 // In the previous chapter, you learned about the ArrayList class. The LinkedList class is almost identical to the ArrayList:
-package Assignments.Feb_24;
+// package Assignments.Feb_24;
 import java.util.LinkedList;
 import java.util.Collections;
 public class JavaLinkedList_02 {

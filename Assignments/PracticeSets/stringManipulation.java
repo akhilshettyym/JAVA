@@ -1,4 +1,4 @@
-package PracticeSets;
+// package PracticeSets;
 
 public class stringManipulation {
     public static void main(String[] args) {

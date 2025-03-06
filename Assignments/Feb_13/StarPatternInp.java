@@ -1,4 +1,4 @@
-package Assignments.Feb_13;
+// Assignments.Feb_13;
 import java.util.Scanner;
 public class StarPatternInp {
     public static void main(String[] args) {

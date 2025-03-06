@@ -1,4 +1,4 @@
-package Assignments.Feb_27;
+// package Assignments.Feb_27;
 // 2. Write a Java program that reads a list of integers from the user and throws ane
 // exception if any numbers are duplicates.
 import java.util.*;

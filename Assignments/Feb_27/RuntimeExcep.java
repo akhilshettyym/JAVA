@@ -1,4 +1,4 @@
-package Assignments.Feb_27;
+// package Assignments.Feb_27;
 
 /*
   3. write a program to throw all the runtime exceptions like ArithmeticException, NullPointerException, ArrayIndexOutOfBoundException, ArrayStoreException and ClassCastException.

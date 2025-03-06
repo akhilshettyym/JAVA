@@ -1,4 +1,4 @@
-package Assignments.Others;
+// package Assignments.Others;
 import java.util.Scanner;
 public class DayEnd {
     public static void main(String[] args) {
