@@ -1,6 +1,6 @@
 // Java Output Example - Demonstrating println() and print() Methods
 
-public class D_Output {
+public class D_OutputText {
     public static void main(String[] args) {
 
         // Using println() - Prints text and moves to a new line after each statement
