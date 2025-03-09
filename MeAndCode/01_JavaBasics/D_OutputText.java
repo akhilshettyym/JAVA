@@ -1,4 +1,4 @@
-// Java Output Example - Demonstrating println() and print() Methods
+
 
 public class D_OutputText {
     public static void main(String[] args) {

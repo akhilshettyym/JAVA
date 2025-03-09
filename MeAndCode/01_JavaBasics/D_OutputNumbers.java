@@ -1,4 +1,4 @@
-// Java Output Example - Printing Numbers and Performing Calculations
+
 
 public class D_OutputNumbers {
     public static void main(String[] args) {
