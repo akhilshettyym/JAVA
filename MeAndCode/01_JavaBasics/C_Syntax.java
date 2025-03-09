@@ -1,4 +1,4 @@
-public class Syntax_03 {   // Every Java program must have a class, and its name should match the filename
+public class C_Syntax {   // Every Java program must have a class, and its name should match the filename
 public static void main(String[] args) {        // The main() method is the entry point of any Java program
     // Java Syntax Example - Hello World Program
     

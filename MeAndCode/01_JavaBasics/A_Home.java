@@ -1,4 +1,4 @@
-public class Home_01 {
+public class A_Home {
     /*Learn Java
     Java is a popular programming language.
     

@@ -1,6 +1,6 @@
 
 
-public class Intro_02 {
+public class B_Intro {
 /*
  * What is Java?
 Java is a popular programming language, created in 1995.
