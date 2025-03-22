@@ -1,4 +1,4 @@
-package JAVA.MeAndCode.JDBC;
+package JAVA.MyCode.JDBC;
 
 // import java.security.Key;
 // import java.sql.CallableStatement;

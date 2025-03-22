@@ -1,4 +1,4 @@
-package JAVA.MeAndCode.JDBC;
+package JAVA.MyCode.JDBC;
 
 public class B_Drivers{}
 

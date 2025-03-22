@@ -1,4 +1,4 @@
-package JAVA.MeAndCode.JDBC;
+package JAVA.MyCode.JDBC;
 
 // Importing required JDBC classes
 import java.sql.*;  
