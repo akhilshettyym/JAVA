@@ -38,6 +38,4 @@ public class 01_Strings {
             System.out.println(quote);
         }
     }
-    
-    
 }
