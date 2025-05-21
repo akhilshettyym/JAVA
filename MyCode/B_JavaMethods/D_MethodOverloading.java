@@ -12,11 +12,11 @@ public class Main {
 
   public static void main(String[] args) {
 
-      int sumInt = add(8, 5); // Calls int version
+      int sumInteger = add(8, 5); // Calls int version
       double sumDouble = add(4.3, 6.26); // Calls double version
 
       // Display the results with descriptive text
-      System.out.println("Sum of integers: " + sumInt);
+      System.out.println("Sum of integers: " + sumInteger);
       System.out.println("Sum of doubles: " + sumDouble);
   }
 }
