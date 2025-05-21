@@ -11,7 +11,7 @@
  * The technical term for this is: Java will "throw an exception" (throw an error).
  */
 
-public class Exceptions_05 {
+public class E_Exceptions {
     public static void main(String[] args) {
 
         // ===================== Example 1: Handling ArithmeticException =====================

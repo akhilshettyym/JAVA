@@ -5,7 +5,7 @@ The throw statement allows you to create a custom error.
 The throw statement is used together with an exception type. There are many exception types available in Java:
 ArithmeticException, FileNotFoundException, ArrayIndexOutOfBoundsException, SecurityException, etc: */
 
-public class Exceptions_06 {
+public class F_Exceptions {
   static void checkAge(int age) {
     if (age < 18) {
       throw new ArithmeticException("Access denied - You must be at least 18 years old.");

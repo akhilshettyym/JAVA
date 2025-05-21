@@ -16,7 +16,7 @@ class SortEvenFirst implements Comparator<Integer> { // Use <Integer> to specify
     }
 }
 
-public class Comparator_03 {
+public class D_Comparator {
     public static void main(String[] args) {
         ArrayList<Integer> myNumbers = new ArrayList<>();
         myNumbers.add(33);

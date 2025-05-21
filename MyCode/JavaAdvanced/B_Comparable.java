@@ -35,7 +35,7 @@ class Car implements Comparable<Car> {
     }
 }
 
-public class Comparable_04 {
+public class B_Comparable {
     public static void main(String[] args) { 
         // Create a list of Car objects
         ArrayList<Car> myCars = new ArrayList<>();    

@@ -2,7 +2,7 @@
 
 import java.util.*;  // Importing all Java utility classes, including Collections
 
-public class Collections_01 {
+public class A_Collections {
     public static void main(String[] args) {
         // ---------------------- LIST INTERFACE ----------------------
         // ArrayList Example (Dynamic array that allows duplicate elements)
