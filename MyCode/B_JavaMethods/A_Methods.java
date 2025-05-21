@@ -3,7 +3,7 @@ public class Main {
   // This is a user-defined method named 'myMethod'
   // 'static' means this method belongs to the class itself, not objects
   // 'void' means this method does not return any value
-  public static void myMethod() {
+  static void myMethod() {
       // This line will be executed each time the method is called
       System.out.println("I just got executed!");
   }
