@@ -23,15 +23,15 @@ public class Main {
 
       // Calling method with one parameter
       System.out.println("=== Method with One Parameter (printName) ===");
-      printName("Liam");
-      printName("Jenny");
-      printName("Anja");
+      printName("Igris");
+      printName("Beru");
+      printName("Tusk");
 
       // Calling method with two parameters
       System.out.println("\n=== Method with Two Parameters (printNameAndAge) ===");
-      printNameAndAge("Liam", 5);
-      printNameAndAge("Jenny", 8);
-      printNameAndAge("Anja", 31);
+      printNameAndAge("Igris", 5);
+      printNameAndAge("Beru", 8);
+      printNameAndAge("Tusk", 31);
 
       // Calling method with if...else logic
       System.out.println("\n=== Method with If...Else Logic (checkAge) ===");
