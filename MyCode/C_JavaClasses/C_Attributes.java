@@ -40,7 +40,7 @@ public class Main {
     System.out.println("\n=== Using Final Attribute ===");
 
     // Attempting to modify final variable z would cause a compile error
-    // myObj.z = 15; // ❌ Uncommenting this line will cause an error
+    // myObj.z = 15; //  Uncommenting this line will cause an error
 
     System.out.println("Final attribute z = " + myObj.z); // Output: 10
 
