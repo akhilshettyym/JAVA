@@ -28,7 +28,7 @@ public class WrapperClassDemo {
     java.util.ArrayList<Integer> numbers = new java.util.ArrayList<>();
     numbers.add(10);
     numbers.add(20);
-    numbers.add(myInt); // using previously defined wrapper object
+    numbers.add(myInt);
 
     System.out.println("\nWrapper Objects in ArrayList:");
     for (Integer num : numbers) {
