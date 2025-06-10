@@ -37,6 +37,7 @@ public class Main {
 
     // Loop through the HashSet using Iterator
     System.out.println("Iterating through HashSet using Iterator:");
+    
     Iterator<String> it = cars.iterator();
     while (it.hasNext()) {
       String car = it.next();
