@@ -12,7 +12,7 @@ public class Main {
     cars.add("Volvo");
     cars.add("BMW");
     cars.add("Ford");
-    cars.add("BMW"); // Duplicate entry - will not be added
+    cars.add("BMW"); // Duplicate entry - will not be added but removed
     cars.add("Mazda");
 
     // Display all items in the HashSet (unordered and unique)
