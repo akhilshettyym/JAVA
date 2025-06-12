@@ -1,4 +1,4 @@
-import java.io.File;  // Import the File class for file operations
+import java.io.File;
 
 public class DeleteFilesAndFolders {
     public static void main(String[] args) {
