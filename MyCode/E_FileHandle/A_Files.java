@@ -47,7 +47,7 @@ public class FileHandlingDemo {
             if (dir.mkdir()) {
                 System.out.println("Directory created: " + dir.getName());
             } else {
-                System.out.println("Failed to create directory.");
+                System.out.println("Failed to create directory..");
             }
         }
 
