@@ -1,6 +1,3 @@
-package JAVA.MyCode.F_JavaAdvanced;
-// Java Exception Handling Example: try, catch, finally, and throw
-
 public class Main {
     // Method that uses throw to generate a custom exception based on age
     static void checkAge(int age) {
