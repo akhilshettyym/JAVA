@@ -1,6 +1,3 @@
-package JAVA.MyCode.F_JavaAdvanced;
-
-
 import java.util.*;
 
 // Custom comparator to sort even numbers first, then odd numbers

@@ -1,6 +1,3 @@
-package JAVA.MyCode.F_JavaAdvanced;
-
-
 /* 
  * To sort objects, we need to define a rule that determines the sorting order.
  * The Comparator and Comparable interfaces allow us to define custom sorting logic.
