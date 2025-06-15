@@ -1,6 +1,3 @@
-// Java List Sorting Examples
-// Demonstrating sorting with ArrayList and Collections.sort()
-
 import java.util.ArrayList;
 import java.util.Collections;  // Import the Collections class
 
