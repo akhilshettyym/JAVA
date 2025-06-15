@@ -1,7 +1,4 @@
-package JAVA.MyCode.F_JavaAdvanced;
-
-
-import java.util.*;  // Importing all Java utility classes, including Collections
+import java.util.*;
 
 public class A_Collections {
     public static void main(String[] args) {

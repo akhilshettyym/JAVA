@@ -1,7 +1,3 @@
-package JAVA.MyCode.F_JavaAdvanced;
-
- 
-
 /*
  * The Comparable interface allows an object to define its own sorting rule using the compareTo() method.
  *
