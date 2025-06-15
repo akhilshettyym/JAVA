@@ -1,5 +1,3 @@
-// Java LinkedList Tutorial with Code and Comments
-
 import java.util.LinkedList;
 
 public class JavaLinkedListTutorial {
