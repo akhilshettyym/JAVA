@@ -1,5 +1,3 @@
-// Java Wrapper Class Tutorial
-
 public class WrapperClassDemo {
   public static void main(String[] args) {
     // Create wrapper objects using primitive values
