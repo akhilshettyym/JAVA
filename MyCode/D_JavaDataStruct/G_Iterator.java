@@ -1,5 +1,3 @@
-// Java HashSet Tutorial with Examples, Comments, and Iterator Usage
-
 import java.util.HashSet;
 import java.util.Iterator;
 
