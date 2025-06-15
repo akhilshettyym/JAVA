@@ -1,5 +1,3 @@
-// Java HashSet Tutorial with Examples and Comments
-
 import java.util.HashSet;
 
 public class Main {
