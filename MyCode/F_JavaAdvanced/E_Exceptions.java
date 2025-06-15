@@ -1,6 +1,3 @@
-package JAVA.MyCode.F_JavaAdvanced;
-
-
 /**
  * Java Exceptions
  * When executing Java code, different errors can occur:

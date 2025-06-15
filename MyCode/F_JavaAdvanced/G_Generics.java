@@ -1,6 +1,3 @@
-package JAVA.MyCode.F_JavaAdvanced;
-// Java Generics Example - Demonstrating generic classes, methods, and bounds
-
 // Generic class that can hold any type T
 class Box<T> {
     T value; // T is a placeholder for any data type
