@@ -41,7 +41,7 @@ public class Main {
             System.out.println("Caught exception: " + e.getMessage());
         }
 
-        // If age is 20, no exception will be thrown
+        // If age is 20, no exception will be thrown 
         checkAge(20);
     }
 }
