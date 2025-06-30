@@ -1,4 +1,4 @@
-public class Main {
+public class H_Exceptions {
     // Method that uses throw to generate a custom exception based on age
     static void checkAge(int age) {
         if (age < 18) {
