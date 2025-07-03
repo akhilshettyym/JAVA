@@ -1,8 +1,10 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Java Classes and Objects Example
 // This file demonstrates how classes and objects work in Java
 
 // Class definition - acts as a "blueprint" for creating objects
-public class Main {
+public class B_Classes {
 
   // Attribute (field/property) of the class
   int x = 5;
@@ -12,7 +14,7 @@ public class Main {
     System.out.println("=== Creating a Single Object ===");
 
     // Creating an object of the class Main
-    Main myObj = new Main();
+    B_Classes myObj = new B_Classes();
 
     // Accessing the object's property
     System.out.println("Value of x from myObj: " + myObj.x); // Output: 5
@@ -20,8 +22,8 @@ public class Main {
     System.out.println("\n=== Creating Multiple Objects ===");
 
     // Creating multiple objects from the same class
-    Main myObj1 = new Main();  // Object 1
-    Main myObj2 = new Main();  // Object 2
+    B_Classes myObj1 = new B_Classes();  // Object 1
+    B_Classes myObj2 = new B_Classes();  // Object 2
 
     // Both objects have their own copy of x
     System.out.println("Value of x from myObj1: " + myObj1.x); // Output: 5
@@ -44,7 +46,7 @@ public class Main {
   static class OtherClass {
     void printFromMainObject() {
       // Creating an object of Main class
-      Main anotherObj = new Main();
+      B_Classes anotherObj = new B_Classes();
       // Accessing the field x of Main class
       System.out.println("Value of x accessed from OtherClass: " + anotherObj.x); // Output: 5
     }
