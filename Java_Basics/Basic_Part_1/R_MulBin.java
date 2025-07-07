@@ -43,14 +43,11 @@ public class R_MulBin {
         if (remainder != 0) {
             sum[i++] = remainder;
         }
-
         --i;
 
         while (i >= 0) {
             binary_prod_result = binary_prod_result * 10 + sum[i--];
         }
-
         return binary_prod_result;
-
     }
 }
