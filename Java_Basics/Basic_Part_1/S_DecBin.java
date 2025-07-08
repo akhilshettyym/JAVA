@@ -17,6 +17,8 @@ public class S_DecBin {
         while (quot != 0) {
             bin[i++] = quot % 2;
             quot = quot / 2;
+            // System.out.println("bin[i++]"+ bin[i++]);
+            // System.out.println("bin[i++]"+ quot);
         }
 
         sc.close();
