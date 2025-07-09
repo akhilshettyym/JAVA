@@ -15,4 +15,3 @@ public class N_Flag {
         System.out.println("==============================================");
     }
 }
-
