@@ -1,9 +1,10 @@
 package akhilshettyym.JAVA.Java_Basics.Basic_Part_1;
+
 import java.util.Scanner;
 
 public class S_DecBin {
     public static void main(String args[]) {
-        
+
         int i = 1, j;
         int bin[] = new int[100];
 
