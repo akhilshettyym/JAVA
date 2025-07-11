@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.Java_Basics.Basic_Part_1;
+
 import java.util.Scanner;
 
 public class R_MulBin {
