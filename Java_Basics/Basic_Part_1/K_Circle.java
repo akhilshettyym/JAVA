@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.Java_Basics.Basic_Part_1;
+
 import java.util.Scanner;
 
 public class K_Circle {
@@ -8,8 +9,8 @@ public class K_Circle {
         float r = sc.nextFloat();
         double area = Math.PI * r * r;
         double perimeter = 2 * Math.PI * r;
-        System.out.println("Perimeter of the circle is :"+ perimeter);
-        System.out.println("Area of the circle is :"+ area);
+        System.out.println("Perimeter of the circle is :" + perimeter);
+        System.out.println("Area of the circle is :" + area);
         sc.close();
     }
 }
