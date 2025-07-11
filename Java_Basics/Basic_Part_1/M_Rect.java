@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.Java_Basics.Basic_Part_1;
+
 import java.util.Scanner;
 
 public class M_Rect {
@@ -8,8 +9,8 @@ public class M_Rect {
         float w = sc.nextFloat();
         System.out.print("Enter the height of rectangle :");
         float h = sc.nextFloat();
-        System.out.println("The Perimeter of the rectangle is :"+ (2*(h+w)));
-        System.out.println("The Area of the rectangle is :"+ (h*w));
+        System.out.println("The Perimeter of the rectangle is :" + (2 * (h + w)));
+        System.out.println("The Area of the rectangle is :" + (h * w));
         sc.close();
     }
 }
