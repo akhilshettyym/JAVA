@@ -5,18 +5,18 @@ public class V_BinDec {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        long binaryNumber, decimalNumber = 0, j = 1, remainder;
+        long bin, dec = 0, j = 1, rem;
         
         System.out.print("Input a binary number: ");
-        binaryNumber = sc.nextLong();
+        bin = sc.nextLong();
 
-        while (binaryNumber != 0) {
-            remainder = binaryNumber % 10;
-            decimalNumber = decimalNumber + remainder * j;
+        while (bin != 0) {
+            rem = bin % 10;
+            dec = dec + rem * j;
             j = j * 2;
-            binaryNumber = binaryNumber / 10;
-        }
-        System.out.println("Decimal Number: " + decimalNumber);
+            bin = bin / 10;
+        }       
+        System.out.println("Decimal Number: " + dec);
         sc.close();
     }
 }
