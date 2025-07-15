@@ -13,10 +13,11 @@ public class Z_Sum {
         sc.close();
     }
 
-    public static int sumDigits(long n) {
-        int sum = 0;
+    public static long sumDigits(long n) {
+        long sum = 0;
         while (n != 0) {
-            sum += n % 10;
+            // sum += n % 10;
+            sum = sum + n % 10;
             n /= 10;
         }
         return sum;
