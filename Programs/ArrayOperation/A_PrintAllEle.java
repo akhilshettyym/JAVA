@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.Programs.ArrayOperation;
+
 public class A_PrintAllEle {
     public static void main(String[] args){
         int[] num = {10, 20, 30, 40, 50};
