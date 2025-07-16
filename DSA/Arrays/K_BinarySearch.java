@@ -1,14 +1,13 @@
 package akhilshettyym.JAVA.DSA.Arrays;
-
 import java.util.Scanner;
 
 public class K_BinarySearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.print("Enter the size of the array: ");
         int s = sc.nextInt();
-  
+
         int[] arr = new int[s];
 
         System.out.print("Enter the elements of the array: ");
@@ -24,23 +23,22 @@ public class K_BinarySearch {
         System.out.println("The target value is at the index :" + index);
         sc.close();
     }
-    public static int binarySearch(int[] arr, int target){
+
+    public static int binarySearch(int[] arr, int target) {
         int left = 0;
         int right = arr.length - 1;
-        
-        while (left<=right){
-            int mid = (left+right)/2;
-            if(arr[mid]==target){
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (arr[mid] == target) {
                 return mid;
-            } 
-            else if(arr[mid]<target){
+            } else if (arr[mid] < target) {
                 left = mid + 1;
-            }
-            else{
+            } else {
                 right = mid - 1;
             }
-            
+
         }
         return -1;
-}
+    }
 }
