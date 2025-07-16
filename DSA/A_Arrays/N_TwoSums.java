@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 
 public class N_TwoSums {
     public static void main(String[] args) {

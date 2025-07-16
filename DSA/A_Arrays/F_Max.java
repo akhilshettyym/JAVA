@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 
 public class F_Max {
     public static void main(String[] args) {

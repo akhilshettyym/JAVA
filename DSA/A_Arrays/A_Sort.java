@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 
 import java.util.Arrays;
 

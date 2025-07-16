@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 
 // Count the number elements that are greater than the given number 
 public class I_Greater {
