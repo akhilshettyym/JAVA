@@ -9,10 +9,8 @@ public class ZJ_Function {
         return;
     }
 
-    public static void mulOfTwo(int a, int b) {
-        int mul = a * b;
-        System.out.print("Product of a " + a + " and b " + b + " is :" + mul);
-        return;
+    public static int mulOfTwo(int a, int b){
+        return a * b;
     }
 
     public static void main(String[] args) {
@@ -23,7 +21,7 @@ public class ZJ_Function {
         int b = sc.nextInt();
 
         sumOfTwo(a, b);
-        mulOfTwo(a, b);
+        System.out.println("The product of two numbers a and b is :" +mulOfTwo(a, b));
         sc.close();
     }
 }
