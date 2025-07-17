@@ -5,7 +5,13 @@ public class ZJ_Function {
 
     public static void sumOfTwo(int a, int b) {
         int sum = a + b;
-        System.out.print("Sum of " + a + " and " + b + " is :" + sum);
+        System.out.println("Sum of a " + a + " and b " + b + " is :" + sum);
+        return;
+    }
+
+    public static void mulOfTwo(int a, int b) {
+        int mul = a * b;
+        System.out.print("Product of a " + a + " and b " + b + " is :" + mul);
         return;
     }
 
@@ -17,6 +23,7 @@ public class ZJ_Function {
         int b = sc.nextInt();
 
         sumOfTwo(a, b);
+        mulOfTwo(a, b);
         sc.close();
     }
 }
