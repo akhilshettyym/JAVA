@@ -19,6 +19,5 @@ public class H_1010 {
             System.out.println();
             sc.close();
         }
-
     }
 }

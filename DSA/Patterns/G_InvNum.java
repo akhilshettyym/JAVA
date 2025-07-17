@@ -1,5 +1,4 @@
 package akhilshettyym.JAVA.DSA.Patterns;
-
 import java.util.Scanner;
 
 public class G_InvNum {
