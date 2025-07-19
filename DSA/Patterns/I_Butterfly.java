@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.Patterns;
+package JAVA.DSA.Patterns;
 import java.util.Scanner;
 
 public class I_Butterfly {
