@@ -1,4 +1,4 @@
-package JAVA.DSA.Patterns;
+package akhilshettyym.JAVA.DSA.Patterns;
 import java.util.Scanner;
 
 public class D_Decreasing {
