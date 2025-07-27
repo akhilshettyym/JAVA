@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
+package JAVA.DSA.A_Arrays;
 
 public class J_SecondMax {
     public static void main(String[] args) {
