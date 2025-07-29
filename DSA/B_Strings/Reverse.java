@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.B_Strings;
 
-public class A_Reverse {
+public class Reverse {
     public static void main(String[] args) {
         String str = "Akhil";
         

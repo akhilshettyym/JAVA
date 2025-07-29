@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.B_Strings;
 
-public class C_VowelsCons {
+public class VowelsCons {
     public static void main(String[] args) {
         String str = "akhil";
         countVowelsAndConsonants(str);

@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.B_Strings;
 
-public class B_Palindrome {
+public class Palindrome {
     public static void main(String[] args) {
         String str = "malayalam";
 
