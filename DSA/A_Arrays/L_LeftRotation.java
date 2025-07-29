@@ -1,4 +1,4 @@
-package JAVA.DSA.A_Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 import java.util.Scanner;
 
 public class L_LeftRotation {

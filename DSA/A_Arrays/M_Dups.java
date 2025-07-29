@@ -1,4 +1,4 @@
-package JAVA.DSA.A_Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 
 public class M_Dups {
     public static void main(String[] args) {
