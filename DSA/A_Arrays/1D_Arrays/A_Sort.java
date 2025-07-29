@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 import java.util.Arrays;
 
 public class A_Sort {

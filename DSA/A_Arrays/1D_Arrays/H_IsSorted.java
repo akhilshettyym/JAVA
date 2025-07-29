@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 public class H_IsSorted {
     public static void main(String[] args) {
         int[] arr = new int[] { 3, 5, 1, 8, 9 };

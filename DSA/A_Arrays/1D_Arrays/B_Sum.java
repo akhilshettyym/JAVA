@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 public class B_Sum {
     public static void main(String[] args) {
         int[] my_array = {789, 2035, 1899, 1456, 2013, 458, 2458, 1254, 1472, 2365};

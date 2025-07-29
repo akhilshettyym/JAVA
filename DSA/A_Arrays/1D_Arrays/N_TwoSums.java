@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 public class N_TwoSums {
     public static void main(String[] args) {
         int[] arr = new int[] { 1, 2, 3, 4, 5, 6 };

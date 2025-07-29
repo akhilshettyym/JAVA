@@ -1,4 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
 import java.util.Scanner;
 
 public class K_BinarySearch {

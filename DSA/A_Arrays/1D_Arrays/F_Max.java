@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 public class F_Max {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 4, 5, 6, 6, 7, 8, 0, 9 };

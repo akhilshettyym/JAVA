@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 public class O_MoveZero {
     public static void main(String[] args) {
         int[] arr = { 0, 1, 0, 3, 12, 0 };

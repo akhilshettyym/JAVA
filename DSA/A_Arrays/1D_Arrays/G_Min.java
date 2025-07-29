@@ -1,5 +1,3 @@
-package akhilshettyym.JAVA.DSA.A_Arrays;
-
 public class G_Min {
     public static void main(String[] args) {
         int[] arr = { 2, 3, 4, 5, 1 };
