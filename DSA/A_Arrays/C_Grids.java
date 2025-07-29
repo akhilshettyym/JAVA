@@ -1,4 +1,4 @@
-package JAVA.DSA.A_Arrays;
+package akhilshettyym.JAVA.DSA.A_Arrays;
 
 public class C_Grids {
     public static void main(String[] args) {
