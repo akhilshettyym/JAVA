@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.B_Strings;
 import java.util.Scanner;
-
+// Strings are immutable
 public class A_Defn {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
