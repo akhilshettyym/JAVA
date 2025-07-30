@@ -1,8 +1,8 @@
 package akhilshettyym.JAVA.DSA.Sorts;
+
 import java.util.Scanner;
-// Push largest element to the end with iterations
-// Time Complexity = O(n^2);
-public class A_BubbleSort {
+
+public class B_SelectionSort {
     public static void printSorted(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
@@ -23,13 +23,16 @@ public class A_BubbleSort {
         }
 
         for (int i = 0; i < s - 1; i++) {
-            for (int j = 0; j < s - i - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+            int smallest = i;
+            for (int j = i + 1; j < s; j++) {
+                if (arr[smallest] > arr[j]) {
+                    smallest = j;
                 }
             }
+
+            int temp = arr[smallest];
+            arr[smallest] = arr[i];
+            arr[i] = temp;
         }
         printSorted(arr);
         sc.close();
