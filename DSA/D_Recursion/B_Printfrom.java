@@ -24,23 +24,21 @@ public class B_Printfrom {
 
         System.out.print("Enter your choice - (1:for loop) and (2:Recursion) :");
         int c = sc.nextInt();
+        System.out.print("Enter the initial value :");
+        int init = sc.nextInt();
+        System.out.print("Enter the final value :");
+        int fin = sc.nextInt();
 
-        if (c == 1) {
-            System.out.println("Running for loop ...");
-            System.out.print("Enter the initial value :");
-            int init = sc.nextInt();
-            System.out.print("Enter the final value :");
-            int fin = sc.nextInt();
+        switch (c) {
+            case 1:
+                System.out.println("Running for loop ...");
+                printNum1(init, fin);
+                break;
 
-            printNum1(init, fin);
-        } else {
-            System.out.println("Running for recursion ...");
-            System.out.print("Enter the initial value :");
-            int init = sc.nextInt();
-            System.out.print("Enter the final value :");
-            int fin = sc.nextInt();
-
-            printNum2(init, fin);
+            case 2:
+                System.out.println("Running for recursion ...");
+                printNum2(init, fin);
+                break;
         }
         sc.close();
     }
