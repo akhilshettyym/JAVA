@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.Sorts;
 import java.util.Scanner;
-
+// Time Complexity = O(n^2);
 public class A_BubbleSort {
     public static void printSorted(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
