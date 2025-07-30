@@ -11,10 +11,11 @@ public class A_PrintTo {
 
     // Using recurion
     public static void printNum2(int n) {
-        if (n > 0) {
-            System.out.println(n);
-            printNum2(n - 1);
+        if (n == 0) {
+            return;
         }
+        System.out.println(n);
+        printNum2(n - 1);
     }
 
     public static void main(String[] args) {
