@@ -1,4 +1,4 @@
-package akhilshettyym.JAVA.DSA.Functions;
+package akhilshettyym.JAVA.DSA.C_Functions;
 
 public class E_InfLoop {
     public static void main(String[] args) {
