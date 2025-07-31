@@ -18,7 +18,13 @@ public class H_TowerOfHanoi {
         System.out.print("Enter a number n :");
         int n = sc.nextInt();
 
+        double s = Math.pow(2, n) - 1;
+
         towerOfHanoi(n, "S", "H", "D");
+        System.out.println("---------------------------");
+        System.out.println("Number of steps taken :" + s);
+        System.out.println("===========================");
+
         sc.close();
     }
 }
