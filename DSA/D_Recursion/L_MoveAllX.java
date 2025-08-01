@@ -25,7 +25,6 @@ public class L_MoveAllX {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the string :");
-
         String str = sc.nextLine();
         moveAllX(str, 0, 0, "");
         sc.close();
