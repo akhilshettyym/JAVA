@@ -1,4 +1,4 @@
-// package Assignments.Feb_20;
+package akhilshettyym.JAVA.Assignments.Feb_20;
 
 class Car {
     static int wheels = 4;  // Static variable (shared among all the cars)

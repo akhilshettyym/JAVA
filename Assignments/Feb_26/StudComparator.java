@@ -1,4 +1,4 @@
-// package Assignments.Feb_26;
+package akhilshettyym.JAVA.Assignments.Feb_26;
 // By using Comparator sort the list of students based on their obtained Marks in the increasing order.
 // Create a Student class having student name, roll number and marks.
 import java.util.*;

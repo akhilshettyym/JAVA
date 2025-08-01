@@ -1,4 +1,4 @@
-// package PracticeSets;
+package akhilshettyym.JAVA.Assignments.PracticeSets;
 
 public class StarPattern {
     public static void main(String[] args) {

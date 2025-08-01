@@ -1,4 +1,4 @@
-// package Assignments.Feb_26;
+package akhilshettyym.JAVA.Assignments.Feb_26;
 /*By using  TreeSet and TreeMap, perform basic operations like adding elements to them, addition, 
 deletion and iteration for below examples.
 2.For TreeMap use String as Key and String as a Value.*/

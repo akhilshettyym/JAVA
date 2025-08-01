@@ -1,4 +1,4 @@
-// package Assignments.Feb_12;
+package akhilshettyym.JAVA.Assignments.Feb_12;
 import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {

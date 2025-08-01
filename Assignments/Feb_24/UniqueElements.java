@@ -1,4 +1,5 @@
-// package Assignments.Feb_24;
+package akhilshettyym.JAVA.Assignments.Feb_24;
+
 /*Write a program to add an unique element in a new list by comparing two given lists.
 Ex: Input: List1 = [car, bike, bus, train, truck]    List2 = [car, bike ,train, truck]
 Output: NewList = [bus] */

@@ -1,4 +1,5 @@
-// package Assignments.Others;
+package akhilshettyym.JAVA.Assignments.Others;
+
 import java.util.ArrayList;
 import java.util.Collections;
 public class AutoBoxing {

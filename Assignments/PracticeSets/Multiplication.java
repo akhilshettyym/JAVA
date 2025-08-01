@@ -1,4 +1,4 @@
-// package PracticeSets;
+package akhilshettyym.JAVA.Assignments.PracticeSets;
 
 public class Multiplication {
     public static void main(String[] args) {

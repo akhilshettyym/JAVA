@@ -1,4 +1,4 @@
-// package PracticeSets;
+package akhilshettyym.JAVA.Assignments.PracticeSets;
 
 public class Sum {
     public static void main(String[] args) {
