@@ -1,12 +1,14 @@
 package akhilshettyym.JAVA.Assignments.Feb_20;
+
 // import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+
 public class CurrentDate {
     public static void main(String[] args) {
 
-        LocalDateTime today = LocalDateTime.now();      // To get the current date and i also did time
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy"); // To define the format 
+        LocalDateTime today = LocalDateTime.now(); // To get the current date and i also did time
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy"); // To define the format
         String formattedDate = today.format(formatter);
         System.out.println("Current Date: " + formattedDate);
 
