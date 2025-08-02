@@ -1,8 +1,8 @@
 package akhilshettyym.JAVA.Assignments.Feb_20;
 
 class Car {
-    static int wheels = 4;  // Static variable (shared among all the cars)
-    final String brand;     // Final variable (set via constructor, cannot be changed)
+    static int wheels = 4; // Static variable (shared among all the cars)
+    final String brand; // Final variable (set via constructor, cannot be changed)
 
     // Constructor to initialize brand
     public Car(String brand) {
@@ -36,8 +36,7 @@ class Car {
         car1.displayCarInfo();
         car2.displayCarInfo();
 
-
-        // car1.brand = "Ford";  //  This is NOT allowed.
+        // car1.brand = "Ford"; // This is NOT allowed.
 
         System.out.println("\nFinal variable 'brand' cannot be changed once set.");
     }
