@@ -1,5 +1,10 @@
 package akhilshettyym.JAVA.DSA.Sorts;
 
+// Divide the list into two parts: sorted and unsorted.
+// Find the smallest element in the unsorted part.
+// Swap it with the first element of the unsorted part.
+// Move the boundary of the sorted part one step forward.
+// Repeat until the entire list is sorted.
 import java.util.Scanner;
 
 public class B_SelectionSort {
