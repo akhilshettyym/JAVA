@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class D_MergeSort {
     public static void conquer(int[] arr, int si, int mid, int ei) {
         int merged[] = new int[ei - si + 1];
-        int idx1 = 0;
-        int idx2 = 0;
+        int idx1 = si;
+        int idx2 = mid+1;
         int x = 0;
 
         while (idx1 <= mid && idx2 <= ei) {
@@ -42,11 +42,11 @@ public class D_MergeSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the size of an array :");
+        System.out.print("Enter the size of an array : ");
         int s = sc.nextInt();
 
         int[] arr = new int[s];
-        System.out.println("Enter the elements of an array :");
+        System.out.print("Enter the elements of an array : ");
         for (int i = 0; i < s; i++) {
             if (sc.hasNext()) {
                 arr[i] = sc.nextInt();
@@ -55,8 +55,9 @@ public class D_MergeSort {
 
         divide(arr, 0, s - 1);
 
+        System.out.println("Sorted elements : ");
         for (int i = 0; i < s; i++) {
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
         }
         System.out.println();
         sc.close();
