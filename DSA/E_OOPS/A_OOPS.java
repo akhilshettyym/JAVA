@@ -14,6 +14,10 @@ class Car {
     public void printColor(){
         System.out.println(this.color);
     }
+
+    Car() {
+        System.out.println("Non-parameterised Constructor in Car");
+    }
 }
 
 class Student {
@@ -23,6 +27,12 @@ class Student {
     public void printInfo() {
         System.out.println(this.name);
         System.out.println(this.age);
+    }
+
+    Student(String name, int age) {
+        System.out.println("Parameterised constructor in Student");
+        this.name = name;
+        this.age = age;
     }
 }
 public class A_OOPS {
@@ -39,15 +49,10 @@ public class A_OOPS {
         car1.printBrand();
         car2.printColor();
         
-        Student student1 = new Student();
-        student1.name = "Akhil";
-        student1.age = 22;
-
-        Student student2 = new Student();
-        student2.name = "Shetty";
-        student2.age = 23;
+        Student student1 = new Student("Akhil", 22);
 
         student1.printInfo();
-        student2.printInfo();
+
+        // Student s2 = new Student(s1); Copy constructors.
     }
 }
