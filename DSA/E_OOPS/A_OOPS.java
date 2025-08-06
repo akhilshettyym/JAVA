@@ -16,6 +16,15 @@ class Car {
     }
 }
 
+class Student {
+    String name;
+    int age;
+
+    public void printInfo() {
+        System.out.println(this.name);
+        System.out.println(this.age);
+    }
+}
 public class A_OOPS {
     public static void main(String[] args) {
         Car car1 = new Car();
@@ -27,8 +36,18 @@ public class A_OOPS {
         car2.color = "red";
 
         car1.drive();
-
         car1.printBrand();
-        car2.printColor(); 
+        car2.printColor();
+        
+        Student student1 = new Student();
+        student1.name = "Akhil";
+        student1.age = 22;
+
+        Student student2 = new Student();
+        student2.name = "Shetty";
+        student2.age = 23;
+
+        student1.printInfo();
+        student2.printInfo();
     }
 }
