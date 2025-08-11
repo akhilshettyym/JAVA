@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.C_Functions;
+
 import java.util.Scanner;
 
 public class F_GCD {
