@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.D_Recursion;
+
 // Print all the subsets of a set of first n natural numbers
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -30,7 +31,7 @@ public class U_Subsets {
 
         ArrayList<Integer> subset = new ArrayList<>();
         findSubsets(n, subset);
-        
+
         sc.close();
     }
 }

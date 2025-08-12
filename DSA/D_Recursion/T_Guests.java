@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.D_Recursion;
+
 import java.util.Scanner;
 // Find the number ways in which you can invite n people to your party, single or in pairs
 
