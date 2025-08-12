@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.D_Recursion;
+
 import java.util.Scanner;
 
 public class M_RemoveDup {
@@ -25,7 +26,7 @@ public class M_RemoveDup {
 
         System.out.print("Enter the string :");
         String str = sc.nextLine();
-        
+
         removeDup(str, 0, "");
         sc.close();
     }
