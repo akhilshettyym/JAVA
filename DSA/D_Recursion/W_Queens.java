@@ -65,6 +65,7 @@ public class W_Queens {
         }
         allBoards.add(newBoard);
     }
+
     // Second recursion
     public void helper(char[][] board, List<List<String>> allBoards, int col) {
         if (col == board.length) {
@@ -79,6 +80,7 @@ public class W_Queens {
             }
         }
     }
+
     // First
     public List<List<String>> solvedQueens(int n) {
         List<List<String>> allBoards = new ArrayList<>();
