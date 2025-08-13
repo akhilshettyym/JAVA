@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Patterns;
+
 import java.util.Scanner;
 
 public class H_1010 {
