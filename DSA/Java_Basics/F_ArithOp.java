@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class F_ArithOp {
@@ -8,11 +9,11 @@ public class F_ArithOp {
         int num1 = sc.nextInt();
         System.out.println("Input second number :");
         int num2 = sc.nextInt();
-        System.out.println(num1+num2);
-        System.out.println(num1-num2);
-        System.out.println(num1*num2);
-        System.out.println(num1/num2);
-        System.out.println(num1%num2);
+        System.out.println(num1 + num2);
+        System.out.println(num1 - num2);
+        System.out.println(num1 * num2);
+        System.out.println(num1 / num2);
+        System.out.println(num1 % num2);
         sc.close();
     }
 }

@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class G_Multi {
@@ -6,8 +7,8 @@ public class G_Multi {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-        for(int i=0; i<10; i++){
-            System.out.println(num + "x" + (i+1) + "=" + num*(i+1));
+        for (int i = 0; i < 10; i++) {
+            System.out.println(num + "x" + (i + 1) + "=" + num * (i + 1));
         }
         sc.close();
     }
