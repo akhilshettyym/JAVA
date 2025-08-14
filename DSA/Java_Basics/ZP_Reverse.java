@@ -1,10 +1,11 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
-public class ZP_Reverse{
+
+public class ZP_Reverse {
     public static void main(String[] args) {
-        int[] num = { 4, 8, 12, 16, 20};
+        int[] num = { 4, 8, 12, 16, 20 };
 
         System.out.println("Reversed array : ");
-        for (int i = num.length -1; i >= 0; i--){
+        for (int i = num.length - 1; i >= 0; i--) {
             System.out.println(num[i] + "");
         }
     }
