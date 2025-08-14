@@ -4,7 +4,7 @@ import java.util.HashSet;
 
 public class ZU_Unique {
   public static void main(String[] args) {
-    int[] arr = {2, 3, 2, 4, 5, 3, 6};
+    int[] arr = { 2, 3, 2, 4, 5, 3, 6 };
 
     HashSet<Integer> unique = new HashSet<>();
 

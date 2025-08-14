@@ -1,8 +1,9 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
-public class ZV_MergeArr{
+
+public class ZV_MergeArr {
   public static void main(String[] args) {
-    int[] arr1 = {1, 3, 5};
-    int[] arr2 = {2, 4, 6};
+    int[] arr1 = { 1, 3, 5 };
+    int[] arr2 = { 2, 4, 6 };
 
     int[] merged = new int[arr1.length + arr2.length];
 
