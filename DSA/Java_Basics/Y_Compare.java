@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class Y_Compare {
@@ -9,12 +10,12 @@ public class Y_Compare {
         System.out.println("Enter the Second number :");
         int num2 = sc.nextInt();
 
-        if(num1 != num2){
-            System.out.println(num1+ "!=" +num2);
-        } else if (num1 < num2){
-            System.out.println(num1+ "<" +num2);
+        if (num1 != num2) {
+            System.out.println(num1 + "!=" + num2);
+        } else if (num1 < num2) {
+            System.out.println(num1 + "<" + num2);
         } else {
-            System.out.println(num1+ "<=" +num2);
+            System.out.println(num1 + "<=" + num2);
         }
         sc.close();
     }

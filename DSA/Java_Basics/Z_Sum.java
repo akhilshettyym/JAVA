@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class Z_Sum {

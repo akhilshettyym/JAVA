@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class ZA_HexArea {
@@ -11,7 +12,8 @@ public class ZA_HexArea {
         System.out.print("The area of the Hexagon is :" + hexagonArea(s) + "\n");
         sc.close();
     }
+
     public static double hexagonArea(double s) {
-        return (6 * (s*s))/ (4* Math.tan(Math.PI/6));
+        return (6 * (s * s)) / (4 * Math.tan(Math.PI / 6));
     }
 }
