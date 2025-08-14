@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class ZE_Count {
@@ -14,22 +15,19 @@ public class ZE_Count {
     private static void count(String x) {
         char[] ch = x.toCharArray();
 
-        int letter = 0 ;
+        int letter = 0;
         int space = 0;
         int num = 0;
         int other = 0;
 
-        for (int i =0; i<x.length(); i++){
-            if(Character.isLetter(ch[i])){
+        for (int i = 0; i < x.length(); i++) {
+            if (Character.isLetter(ch[i])) {
                 letter++;
-            }
-            else if(Character.isDigit(ch[i])){
+            } else if (Character.isDigit(ch[i])) {
                 num++;
-            }
-            else if(Character.isSpaceChar(ch[i])){
+            } else if (Character.isSpaceChar(ch[i])) {
                 space++;
-            }
-            else{
+            } else {
                 other++;
             }
         }

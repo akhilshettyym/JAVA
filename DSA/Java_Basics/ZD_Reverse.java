@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class ZD_Reverse {
@@ -9,7 +10,7 @@ public class ZD_Reverse {
 
         System.out.println("Reversed string :");
 
-        for(int i = letters.length -1; i>=0; i--){
+        for (int i = letters.length - 1; i >= 0; i--) {
             System.out.println(letters[i]);
         }
         System.out.println("\n");

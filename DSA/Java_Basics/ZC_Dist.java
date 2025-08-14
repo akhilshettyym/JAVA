@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class ZC_Dist {
@@ -14,7 +15,8 @@ public class ZC_Dist {
         System.out.print("sc the longitude of coordinate 2: ");
         double lon2 = sc.nextDouble();
 
-        System.out.print("The distance between those points is: " + distance_Between_LatLong(lat1, lon1, lat2, lon2) + " km\n");
+        System.out.print(
+                "The distance between those points is: " + distance_Between_LatLong(lat1, lon1, lat2, lon2) + " km\n");
         sc.close();
     }
 

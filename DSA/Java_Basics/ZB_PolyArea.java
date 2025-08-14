@@ -1,5 +1,7 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
+
 public class ZB_PolyArea {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,7 +12,8 @@ public class ZB_PolyArea {
         System.out.println("The area of the Polygon is :" + polygonArea(n, s));
         sc.close();
     }
+
     public static double polygonArea(double n, double s) {
-        return (n*(s*s))/(4* Math.tan(Math.PI/n));
+        return (n * (s * s)) / (4 * Math.tan(Math.PI / n));
     }
 }
