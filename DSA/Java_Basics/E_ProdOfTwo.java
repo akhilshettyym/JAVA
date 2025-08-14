@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class E_ProdOfTwo {
@@ -8,7 +9,7 @@ public class E_ProdOfTwo {
         int num1 = sc.nextInt();
         System.out.println("Input second number :");
         int num2 = sc.nextInt();
-        System.out.println("Sum of num1 and num2 :" + (num1*num2));
+        System.out.println("Sum of num1 and num2 :" + (num1 * num2));
         sc.close();
     }
 }
