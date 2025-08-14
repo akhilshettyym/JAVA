@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class ZI_Nnat {
@@ -7,10 +8,10 @@ public class ZI_Nnat {
         System.out.println("Enter the number to find the n natural number :");
         int num = sc.nextInt();
         int sum = 0;
-        for (int i=1; i<=num; i++){
-            sum = i+num;
+        for (int i = 1; i <= num; i++) {
+            sum = i + num;
         }
-        System.out.println("The sum of n natural numbers is :"+sum);
+        System.out.println("The sum of n natural numbers is :" + sum);
         sc.close();
     }
 }

@@ -1,4 +1,5 @@
 package akhilshettyym.JAVA.DSA.Java_Basics;
+
 import java.util.Scanner;
 
 public class ZJ_Function {
@@ -9,7 +10,7 @@ public class ZJ_Function {
         return;
     }
 
-    public static int mulOfTwo(int a, int b){
+    public static int mulOfTwo(int a, int b) {
         return a * b;
     }
 
@@ -21,7 +22,7 @@ public class ZJ_Function {
         int b = sc.nextInt();
 
         sumOfTwo(a, b);
-        System.out.println("The product of two numbers a and b is :" +mulOfTwo(a, b));
+        System.out.println("The product of two numbers a and b is :" + mulOfTwo(a, b));
         sc.close();
     }
 }
