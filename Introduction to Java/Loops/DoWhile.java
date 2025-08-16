@@ -8,14 +8,14 @@ public class DoWhile {
             System.out.println(a);
             a++;
         }
-        
+
         // Demonstrating do-while loop
         int b = 10; // Even if b starts at 10, the loop executes at least once
         do {
             System.out.println(b);
             b++;
         } while (b < 5);
-        
+
         // Print first n natural numbers using do-while loop
         int n = 10;
         int i = 1;
