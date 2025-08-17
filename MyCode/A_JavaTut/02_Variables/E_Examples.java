@@ -2,7 +2,7 @@
 
 public class E_Examples {
     public static void main(String[] args) {
-        
+
         // Student data example
         String studentName = "John Doe";
         int studentID = 15;
