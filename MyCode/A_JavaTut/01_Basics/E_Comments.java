@@ -9,11 +9,11 @@ public class E_Comments {
         // Another single-line comment explaining the next statement
         System.out.println("Java is fun!"); // Printing another message
 
-        /* 
-           Multi-line comment: 
-           The following statement prints "Learning Java" to the console.
-           This is useful for longer explanations.
-        */
+        /*
+         * Multi-line comment:
+         * The following statement prints "Learning Java" to the console.
+         * This is useful for longer explanations.
+         */
         System.out.println("Learning Java");
 
         /*
