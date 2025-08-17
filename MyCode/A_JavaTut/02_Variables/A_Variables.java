@@ -2,7 +2,7 @@
 
 public class A_Variables {
     public static void main(String[] args) {
-        
+
         // String variable - stores text
         String name = "John";
         System.out.println("Name: " + name);
@@ -17,19 +17,19 @@ public class A_Variables {
         System.out.println("Another Number: " + anotherNum);
 
         // Changing variable value
-        myNum = 20;  // Overwriting previous value
+        myNum = 20; // Overwriting previous value
         System.out.println("Updated Number: " + myNum);
 
         // Final variable - cannot be changed once assigned
         final int constantNum = 50;
         System.out.println("Final Constant Number: " + constantNum);
-        // constantNum = 100;  // This line would cause an error
+        // constantNum = 100; // This line would cause an error
 
         // Different data types
-        float myFloatNum = 5.99f;  // Float variable (must have 'f' at the end)
-        char myLetter = 'D';       // Character variable (single quotes)
-        boolean myBool = true;     // Boolean variable (true/false)
-        String myText = "Hello";   // String variable
+        float myFloatNum = 5.99f; // Float variable (must have 'f' at the end)
+        char myLetter = 'D'; // Character variable (single quotes)
+        boolean myBool = true; // Boolean variable (true/false)
+        String myText = "Hello"; // String variable
 
         // Printing different types
         System.out.println("Float Number: " + myFloatNum);
