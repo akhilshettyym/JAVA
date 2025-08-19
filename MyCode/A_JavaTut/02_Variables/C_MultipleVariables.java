@@ -2,7 +2,7 @@
 
 public class C_MultipleVariables {
     public static void main(String[] args) {
-        
+
         // Declaring multiple variables in separate lines
         int x = 5;
         int y = 6;
@@ -15,7 +15,7 @@ public class C_MultipleVariables {
 
         // Assigning the same value to multiple variables
         int p, q, r;
-        p = q = r = 50;  // All variables get the value 50
+        p = q = r = 50; // All variables get the value 50
         System.out.println("Sum (Same Value for All): " + (p + q + r));
     }
 }

@@ -8,10 +8,11 @@ class Car {
         System.out.println("Driving to nowhere ");
     }
 
-    public void printBrand(){
+    public void printBrand() {
         System.out.println(this.brand);
     }
-    public void printColor(){
+
+    public void printColor() {
         System.out.println(this.color);
     }
 
@@ -35,6 +36,7 @@ class Student {
         this.age = age;
     }
 }
+
 public class A_OOPS {
     public static void main(String[] args) {
         Car car1 = new Car();
@@ -48,7 +50,7 @@ public class A_OOPS {
         car1.drive();
         car1.printBrand();
         car2.printColor();
-        
+
         Student student1 = new Student("Akhil", 22);
 
         student1.printInfo();

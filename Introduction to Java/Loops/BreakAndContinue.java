@@ -2,7 +2,7 @@ package MeAndCode.Loops;
 
 public class BreakAndContinue {
     public static void main(String[] args) {
-    // Demonstrating break statement in a for loop
+        // Demonstrating break statement in a for loop
         System.out.println("Break example in for loop:");
         for (int k = 0; k < 10; k++) {
             if (k == 5) {
@@ -11,8 +11,8 @@ public class BreakAndContinue {
             }
             System.out.println("k: " + k);
         }
-        
-        // Demonstrating continue statement in a for loop   // used to skip
+
+        // Demonstrating continue statement in a for loop // used to skip
         System.out.println("Continue example in for loop:");
         for (int m = 0; m < 10; m++) {
             if (m == 5) {
@@ -21,7 +21,7 @@ public class BreakAndContinue {
             }
             System.out.println("m: " + m);
         }
-        
+
         // Demonstrating break in a while loop
         System.out.println("Break example in while loop:");
         int x = 0;
@@ -33,7 +33,7 @@ public class BreakAndContinue {
             System.out.println("x: " + x);
             x++;
         }
-        
+
         // Demonstrating continue in a while loop
         System.out.println("Continue example in while loop:");
         int y = 0;
