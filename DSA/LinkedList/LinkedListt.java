@@ -19,8 +19,7 @@ public class LinkedListt {
         }
     }
 
-    // -----------------------------------------------------------------------------------
-    // addFirst
+    // Adding a node in the start
     public void addFirst(String data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -31,7 +30,7 @@ public class LinkedListt {
         head = newNode;
     }
 
-    // addLast
+    // Adding a node in the end.
     public void addLast(String data) {
         Node newNode = new Node(data);
         if (head == null) {
@@ -45,21 +44,20 @@ public class LinkedListt {
         currNode.next = newNode;
     }
 
-    // -----------------------------------------------------------------------------------
-    // DeleteFirst
+    // Deleting from the start
     public void deleteFirst() {
         if (head == null) {
-            System.out.println("The list is empty");
+            System.out.println("The list is empty !");
             return;
         }
         size--;
         head = head.next;
     }
 
-    // DeleteLast
-    public void DeleteLast() {
+    // Deleting from the Last
+    public void deleteLast() {
         if (head == null) {
-            System.out.println("The list is empty");
+            System.out.println("The list is empty !");
             return;
         }
         size--;
@@ -76,16 +74,10 @@ public class LinkedListt {
         secondLast.next = null;
     }
 
-    // -----------------------------------------------------------------------------------
-    // SIZE
-    public int getSize() {
-        return size;
-    }
-    // -----------------------------------------------------------------------------------
-    // Insert at a given position (0-based index)
-    public void addAtPosition(int index, String data) {
+    // Adding at a particular position
+    public void addPos(int index, String data) {
         if (index < 0 || index > size) {
-            System.out.println("Invalid index");
+            System.out.println("Invalid input");
             return;
         }
         if (index == 0) {
@@ -96,59 +88,81 @@ public class LinkedListt {
             addLast(data);
             return;
         }
+
         Node newNode = new Node(data);
         Node currNode = head;
-
         for (int i = 0; i < index - 1; i++) {
             currNode = currNode.next;
         }
         newNode.next = currNode.next;
         currNode.next = newNode;
-        size++;
     }
-    // -----------------------------------------------------------------------------------
-    // Print
+
+    // Deleting at a particular position
+    public void delPos(int index) {
+        if (index < 0 || index > size) {
+            System.out.println("Invalid input");
+            return;
+        }
+        if (index == 0) {
+            deleteFirst();
+            return;
+        }
+        if (index == size) {
+            deleteLast();
+            return;
+        }
+        Node currNode = head;
+        Node nextNode = head.next;
+        for (int i = 0; i < index - 1; i++) {
+            currNode = currNode.next;
+            nextNode = nextNode.next;
+        }
+        currNode.next = nextNode.next;
+    }
+
+    // Size of the linked List.
+    public int getSize() {
+        return size;
+    }
+
+    // Print the list
     public void printList() {
         if (head == null) {
-            System.out.println("List is empty...");
+            System.out.print("The list is empty !!");
             return;
         }
         Node currNode = head;
         while (currNode != null) {
-            System.out.print(currNode.data + " -> ");
+            System.out.print(currNode.data + " => ");
             currNode = currNode.next;
         }
         System.out.println("NULL");
     }
-    // -----------------------------------------------------------------------------------
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         LinkedListt list = new LinkedListt();
-        list.addFirst("Linked");
-        list.addFirst("a");
-        list.addFirst("is");
-        list.addFirst("This");
+        list.addFirst("you");
+        list.addFirst("are");
+        list.addFirst("how");
+        list.addFirst("HI");
         list.printList();
 
-        list.addLast("List");
+        list.addLast("bro");
         list.printList();
 
         list.deleteFirst();
         list.printList();
 
-        list.DeleteLast();
+        list.deleteLast();
         list.printList();
 
-        list.addAtPosition(3, "Did");
-        list.addAtPosition(3, "uk");
+        list.addPos(2, "INTWO");
+        list.printList();
+
+        list.delPos(2);
         list.printList();
 
         System.out.println(list.getSize());
     }
 }
-
-/*
- * When Insertion - LinkedList, When Search - ArrayList
- * Variable size, Non-contiguous Memory
- * Insert in O(1), Search in O(n)
- */
