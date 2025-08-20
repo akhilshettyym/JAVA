@@ -13,7 +13,7 @@ public class H_Exceptions {
     public static void main(String[] args) {
         // Example with an invalid index to trigger ArrayIndexOutOfBoundsException
         try {
-            int[] myNumbers = {1, 2, 3};
+            int[] myNumbers = { 1, 2, 3 };
             System.out.println(myNumbers[10]); // This will cause an error
         } catch (Exception e) {
             // Handle any exception
@@ -22,7 +22,7 @@ public class H_Exceptions {
 
         // Example with try-catch-finally
         try {
-            int[] myNumbers = {1, 2, 3};
+            int[] myNumbers = { 1, 2, 3 };
             System.out.println(myNumbers[10]); // This will cause an error
         } catch (Exception e) {
             // Handle the error
@@ -41,7 +41,7 @@ public class H_Exceptions {
             System.out.println("Caught exception: " + e.getMessage());
         }
 
-        // If age is 20, no exception will be thrown 
+        // If age is 20, no exception will be thrown
         checkAge(20);
     }
 }

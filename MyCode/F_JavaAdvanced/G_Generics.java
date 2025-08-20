@@ -13,7 +13,8 @@ class Box<T> {
     }
 }
 
-// Generic class that calculates statistics over numeric types (bounded by Number)
+// Generic class that calculates statistics over numeric types (bounded by
+// Number)
 class Stats<T extends Number> {
     T[] nums; // Array of numbers of type T
 
@@ -32,7 +33,7 @@ class Stats<T extends Number> {
     }
 }
 
-public class Main {
+public class G_Generics {
     // Generic method that prints elements of any array type
     public static <T> void printArray(T[] array) {
         for (T item : array) {
@@ -52,22 +53,22 @@ public class Main {
         System.out.println("Box contains: " + intBox.get());
 
         // Example of using the generic method printArray with String array
-        String[] names = {"Jenny", "Liam"};
+        String[] names = { "Jenny", "Liam" };
         System.out.println("\nPrinting String array:");
         printArray(names);
 
         // Example of using the generic method printArray with Integer array
-        Integer[] numbers = {1, 2, 3};
+        Integer[] numbers = { 1, 2, 3 };
         System.out.println("\nPrinting Integer array:");
         printArray(numbers);
 
         // Examples of using Stats class with Integer numbers
-        Integer[] intNums = {10, 20, 30, 40};
+        Integer[] intNums = { 10, 20, 30, 40 };
         Stats<Integer> intStats = new Stats<>(intNums);
         System.out.println("\nInteger array average: " + intStats.average());
 
         // Using Stats class with Double numbers
-        Double[] doubleNums = {1.5, 2.5, 3.5};
+        Double[] doubleNums = { 1.5, 2.5, 3.5 };
         Stats<Double> doubleStats = new Stats<>(doubleNums);
         System.out.println("Double array average: " + doubleStats.average());
     }

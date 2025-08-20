@@ -19,7 +19,7 @@ class Car {
     public String brand;
     public String model;
     public int year;
-    
+
     public Car(String brand, String model, int year) {
         this.brand = brand;
         this.model = model;
@@ -28,16 +28,16 @@ class Car {
 }
 
 // Create a comparator using generics
-class SortByYear implements Comparator<Car> { 
+class SortByYear implements Comparator<Car> {
     public int compare(Car a, Car b) {
         return Integer.compare(a.year, b.year); // More concise way to compare integers
     }
 }
 
 public class C_Comparator {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
         // Create a list of cars
-        ArrayList<Car> myCars = new ArrayList<>();  // <> (diamond operator) for cleaner syntax
+        ArrayList<Car> myCars = new ArrayList<>(); // <> (diamond operator) for cleaner syntax
         myCars.add(new Car("BMW", "X5", 1999));
         myCars.add(new Car("Honda", "Accord", 2006));
         myCars.add(new Car("Ford", "Mustang", 1970));

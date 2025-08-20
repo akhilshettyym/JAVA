@@ -11,7 +11,8 @@ public class A_Collections {
         arrayList.add("Apple"); // Allows duplicates
         System.out.println("\nArrayList: " + arrayList);
 
-        // LinkedList Example (Doubly linked list - better for frequent insertions & deletions)
+        // LinkedList Example (Doubly linked list - better for frequent insertions &
+        // deletions)
         List<String> linkedList = new LinkedList<>(arrayList);
         linkedList.add("Date");
         System.out.println("\nLinkedList: " + linkedList);
@@ -51,7 +52,7 @@ public class A_Collections {
         System.out.println("---------------------------------------------------");
         System.out.println("                    Collections");
         System.out.println("---------------------------------------------------");
-        
+
         Collections.sort(arrayList);
         System.out.println("\nSorted ArrayList: " + arrayList);
 
