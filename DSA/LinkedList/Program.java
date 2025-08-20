@@ -29,6 +29,7 @@ public class Program {
             head = newNode;
             return;
         }
+        size++;
         newNode.next = head;
         head = newNode;
     }
@@ -40,6 +41,7 @@ public class Program {
             head = newNode;
             return;
         }
+        size++;
         Node currNode = head;
         while (currNode.next != null) {
             currNode = currNode.next;
@@ -83,6 +85,7 @@ public class Program {
             System.out.println("Invalid input");
             return;
         }
+        size++;
         if (index == 0) {
             addFirst(data);
             return;
@@ -107,6 +110,7 @@ public class Program {
             System.out.println("Invalid input");
             return;
         }
+        size--;
         if (index == 0) {
             deleteFirst();
             return;
