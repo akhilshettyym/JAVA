@@ -1,22 +1,24 @@
-public class Main {
+package akhilshettyym.JAVA.MyCode.B_JavaMethods;
 
-  // Method to add two integers
-  static int add(int x, int y) {
-      return x + y;
-  }
+public class D_MethodOverloading {
 
-  // Overloaded method to add two doubles
-  static double add(double x, double y) {
-      return x + y;
-  }
+    // Method to add two integers
+    static int add(int x, int y) {
+        return x + y;
+    }
 
-  public static void main(String[] args) {
+    // Overloaded method to add two doubles
+    static double add(double x, double y) {
+        return x + y;
+    }
 
-      int sumInteger = add(8, 5); // Calls int version
-      double sumDouble = add(4.3, 6.26); // Calls double version
+    public static void main(String[] args) {
 
-      // Display the results with descriptive text
-      System.out.println("Sum of integers: " + sumInteger);
-      System.out.println("Sum of doubles: " + sumDouble);
-  }
+        int sumInteger = add(8, 5); // Calls int version
+        double sumDouble = add(4.3, 6.26); // Calls double version
+
+        // Display the results with descriptive text
+        System.out.println("Sum of integers: " + sumInteger);
+        System.out.println("Sum of doubles: " + sumDouble);
+    }
 }
