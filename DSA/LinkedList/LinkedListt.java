@@ -18,6 +18,7 @@ public class LinkedListt {
             size++;
         }
     }
+
     // -----------------------------------------------------------------------------------
     // addFirst
     public void addFirst(String data) {
@@ -67,17 +68,43 @@ public class LinkedListt {
             return;
         }
         Node secondLast = head;
-        Node lastNode = head.next; // head.next = null -> lastNode = null
+        Node lastNode = head.next;
         while (lastNode.next != null) {
             lastNode = lastNode.next;
             secondLast = secondLast.next;
         }
         secondLast.next = null;
     }
+
     // -----------------------------------------------------------------------------------
-    //SIZE
+    // SIZE
     public int getSize() {
         return size;
+    }
+    // -----------------------------------------------------------------------------------
+    // Insert at a given position (0-based index)
+    public void addAtPosition(int index, String data) {
+        if (index < 0 || index > size) {
+            System.out.println("Invalid index");
+            return;
+        }
+        if (index == 0) {
+            addFirst(data);
+            return;
+        }
+        if (index == size) {
+            addLast(data);
+            return;
+        }
+        Node newNode = new Node(data);
+        Node currNode = head;
+
+        for (int i = 0; i < index - 1; i++) {
+            currNode = currNode.next;
+        }
+        newNode.next = currNode.next;
+        currNode.next = newNode;
+        size++;
     }
     // -----------------------------------------------------------------------------------
     // Print
@@ -110,6 +137,10 @@ public class LinkedListt {
         list.printList();
 
         list.DeleteLast();
+        list.printList();
+
+        list.addAtPosition(3, "Did");
+        list.addAtPosition(3, "uk");
         list.printList();
 
         System.out.println(list.getSize());
