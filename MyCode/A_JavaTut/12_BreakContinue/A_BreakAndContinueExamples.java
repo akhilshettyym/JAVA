@@ -1,4 +1,4 @@
-public class BreakAndContinueExamples {
+public class A_BreakAndContinueExamples {
     public static void main(String[] args) {
 
         // --- BREAK IN FOR LOOP ---

@@ -1,4 +1,4 @@
-public class NestedLoopsExample {
+public class B_NestedLoopsExample {
     public static void main(String[] args) {
 
         // Outer loop: runs from i = 1 to i = 2

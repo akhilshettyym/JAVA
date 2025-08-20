@@ -1,4 +1,4 @@
-public class ArrayExamples {
+public class A_ArrayExamples {
     public static void main(String[] args) {
 
         // Declare and initialize a String array

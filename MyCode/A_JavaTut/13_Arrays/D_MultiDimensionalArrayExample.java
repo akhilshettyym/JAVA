@@ -1,4 +1,4 @@
-public class MultiDimensionalArrayExample {
+public class D_MultiDimensionalArrayExample {
     public static void main(String[] args) {
         // Declare and initialize a 2D array (array of arrays)
         int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };

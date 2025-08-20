@@ -1,4 +1,4 @@
-public class AgeArrayExamples {
+public class C_AgeArrayExamples {
     public static void main(String[] args) {
         // An array storing different ages
         int[] ages = {20, 22, 18, 35, 48, 26, 87, 70};

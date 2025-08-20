@@ -1,4 +1,4 @@
-public class ForEachLoopExample {
+public class D_ForEachLoopExample {
     public static void main(String[] args) {
         
         // Declare and initialize an array of car brands

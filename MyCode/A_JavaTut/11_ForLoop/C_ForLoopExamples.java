@@ -1,4 +1,4 @@
-public class ForLoopExamples {
+public class C_ForLoopExamples {
     public static void main(String[] args) {
 
         // Example 1: Count to 100 by tens

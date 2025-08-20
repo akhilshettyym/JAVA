@@ -1,4 +1,4 @@
-public class ArrayLoopExample {
+public class B_ArrayLoopExample {
     public static void main(String[] args) {
 
         // Declare and initialize the array

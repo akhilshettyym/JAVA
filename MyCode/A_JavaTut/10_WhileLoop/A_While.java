@@ -1,4 +1,4 @@
-public class While {
+public class A_While {
     public static void main(String[] args) {
 
         int i = 0;

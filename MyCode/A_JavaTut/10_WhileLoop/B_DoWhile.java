@@ -1,4 +1,4 @@
-public class DoWhile {
+public class B_DoWhile {
     public static void main(String[] args) {
         int i = 0;
 

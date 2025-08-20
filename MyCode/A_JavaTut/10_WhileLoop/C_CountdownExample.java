@@ -1,4 +1,4 @@
-public class CountdownExample {
+public class C_CountdownExample {
     public static void main(String[] args) {
         int countdown = 3;
 
