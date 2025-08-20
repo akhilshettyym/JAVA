@@ -1,7 +1,9 @@
-// package MeAndCode.JavaDataStructure;
+package akhilshettyym.JAVA.MyCode.A_JavaTut.JavaDataStructure;
+
 import java.util.Collections;
 import java.util.TreeMap;
-public class TreeMap_07 {
+
+public class G_TreeMap {
     public static void main(String[] args) {
         TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 
@@ -31,13 +33,13 @@ public class TreeMap_07 {
         map.forEach((key, value) -> System.out.println(key + " -> " + value));
 
         // Navigational Methods
-        System.out.println("\nFirst Key: " + map.firstKey());   // Smallest Key
-        System.out.println("Last Key: " + map.lastKey());     // Largest Key
-        System.out.println("Higher Key than 3: " + map.higherKey(3));  // Next higher key
-        System.out.println("Lower Key than 3: " + map.lowerKey(3));    // Next lower key
+        System.out.println("\nFirst Key: " + map.firstKey()); // Smallest Key
+        System.out.println("Last Key: " + map.lastKey()); // Largest Key
+        System.out.println("Higher Key than 3: " + map.higherKey(3)); // Next higher key
+        System.out.println("Lower Key than 3: " + map.lowerKey(3)); // Next lower key
 
         // Submaps (Range Queries)
-        System.out.println("\nKeys before 4: " + map.headMap(4));  // Keys < 4
+        System.out.println("\nKeys before 4: " + map.headMap(4)); // Keys < 4
         System.out.println("Keys from 3 onwards: " + map.tailMap(3)); // Keys >= 3
         System.out.println("Keys from 2 to 4: " + map.subMap(2, 4)); // Keys 2 to 3
 

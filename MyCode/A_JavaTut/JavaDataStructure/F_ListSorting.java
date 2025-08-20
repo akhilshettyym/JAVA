@@ -1,11 +1,11 @@
-// package MeAndCode.JavaDataStructure;
+package akhilshettyym.JAVA.MyCode.A_JavaTut.JavaDataStructure;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class ListSorting_03 {
+public class F_ListSorting {
     public static void main(String[] args) {
-        
+
         System.out.println("---------------------------------------------------------------");
 
         // Sorting an ArrayList of Strings alphabetically in ascending order
@@ -15,7 +15,7 @@ public class ListSorting_03 {
         cars.add("Ford");
         cars.add("Mazda");
 
-        Collections.sort(cars);  // Sort cars in ascending order
+        Collections.sort(cars); // Sort cars in ascending order
 
         System.out.println("Sorted Cars (Ascending Order):");
         for (String car : cars) {
@@ -33,7 +33,7 @@ public class ListSorting_03 {
         myNumbers.add(8);
         myNumbers.add(12);
 
-        Collections.sort(myNumbers);  // Sort numbers in ascending order
+        Collections.sort(myNumbers); // Sort numbers in ascending order
 
         System.out.println("Sorted Numbers (Ascending Order):");
         for (int num : myNumbers) {
@@ -42,10 +42,11 @@ public class ListSorting_03 {
 
         System.out.println("---------------------------------------------------------------");
 
-        /* 
-           You can also sort a list in reverse order using the reverseOrder() method.
-           Below, we sort an ArrayList of Strings alphabetically in reverse/descending order.
-        */
+        /*
+         * You can also sort a list in reverse order using the reverseOrder() method.
+         * Below, we sort an ArrayList of Strings alphabetically in reverse/descending
+         * order.
+         */
         ArrayList<String> carz = new ArrayList<>();
         carz.add("Volvo");
         carz.add("BMW");

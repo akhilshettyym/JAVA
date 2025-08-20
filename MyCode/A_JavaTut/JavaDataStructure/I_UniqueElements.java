@@ -1,10 +1,11 @@
-// package MeAndCode.JavaDataStructure;
+package akhilshettyym.JAVA.MyCode.A_JavaTut.JavaDataStructure;
+
 /*Write a program to add an unique element in a new list by comparing two given lists.
 Ex: Input: List1 = [car, bike, bus, train, truck]    List2 = [car, bike ,train, truck]
 Output: NewList = [bus] */
 import java.util.ArrayList;
 
-public class UniqueElements {
+public class I_UniqueElements {
     public static void main(String[] args) {
         ArrayList<String> list1 = new ArrayList<>();
         list1.add("car");
@@ -21,8 +22,8 @@ public class UniqueElements {
 
         ArrayList<String> newList = new ArrayList<String>();
 
-        for (String item : list1){
-            if (!list2.contains(item)){
+        for (String item : list1) {
+            if (!list2.contains(item)) {
                 newList.add(item);
             }
         }

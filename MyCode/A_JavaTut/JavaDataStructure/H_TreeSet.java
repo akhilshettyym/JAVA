@@ -1,6 +1,8 @@
-// package MeAndCode.JavaDataStructure;
+package akhilshettyym.JAVA.MyCode.A_JavaTut.JavaDataStructure;
+
 import java.util.TreeSet;
-public class TreeSet_08 {
+
+public class H_TreeSet {
     public static void main(String[] args) {
         // Creating a TreeSet of Strings
         TreeSet<String> treeSet = new TreeSet<String>();
@@ -13,7 +15,7 @@ public class TreeSet_08 {
         treeSet.add("Elderberry");
 
         // TreeSet automatically sorts elements in ascending order
-        System.out.println("\nTreeSet: " + treeSet); 
+        System.out.println("\nTreeSet: " + treeSet);
 
         // Checking if a specific element exists
         System.out.println("\nContains 'Banana': " + treeSet.contains("Banana"));

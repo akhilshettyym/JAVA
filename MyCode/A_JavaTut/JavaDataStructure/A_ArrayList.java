@@ -2,6 +2,7 @@ package akhilshettyym.JAVA.MyCode.A_JavaTut.JavaDataStructure;
 
 import java.util.ArrayList;
 import java.util.Collections;
+
 public class A_ArrayList {
     public static void main(String[] args) {
         ArrayList<String> students = new ArrayList<String>();
@@ -14,7 +15,7 @@ public class A_ArrayList {
 
         System.out.println("---------------------------------");
         System.out.println("Inserting element at index 2.");
-        students.add(2,"Kargalgan");
+        students.add(2, "Kargalgan");
         System.out.println(students);
         System.out.println("---------------------------------");
         System.out.println("Accessing elements using get.");
@@ -22,7 +23,7 @@ public class A_ArrayList {
 
         System.out.println("---------------------------------");
         System.out.println("Modifying an element.");
-        System.out.println(students.set(0,"Shetty"));
+        System.out.println(students.set(0, "Shetty"));
 
         System.out.println("---------------------------------");
         System.out.println(students);
@@ -35,18 +36,18 @@ public class A_ArrayList {
         System.out.println(students.contains("Akhil"));
         System.out.println("---------------------------------");
         System.out.println("Looping thru array list !");
-        for (int i = 0; i < students.size(); i ++){
+        for (int i = 0; i < students.size(); i++) {
             System.out.println(students.get(i));
         }
 
         System.out.println("---------------------------------");
         System.out.println("Looping thru array list using for each!");
-        for ( String i  : students){
+        for (String i : students) {
             System.out.println(i);
         }
 
-
-        // By using above example try to sort the values (ascending order and descending order).
+        // By using above example try to sort the values (ascending order and descending
+        // order).
         System.out.println("---------------------------------------------------------------");
         System.out.println("By using above example try to sort the values (ascending order)");
         Collections.sort(students);
@@ -59,10 +60,10 @@ public class A_ArrayList {
 
         System.out.println("---------------------------------");
         System.out.println("Removing an element from the list.");
-        System.out.println(students.remove(6));                 
+        System.out.println(students.remove(6));
         System.out.println("---------------------------------");
         System.out.println("Clearing an entire array.");
-        students.clear();                                            
+        students.clear();
         System.out.println(students);
         System.out.println("---------------------------------");
     }
