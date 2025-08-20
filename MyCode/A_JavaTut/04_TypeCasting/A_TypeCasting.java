@@ -1,5 +1,5 @@
 // Java Type Casting Example
-public class TypeCasting {
+public class A_TypeCasting {
     public static void main(String[] args) {
 
         // Widening Casting (Automatic) - small to large type conversion

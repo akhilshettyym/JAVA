@@ -1,4 +1,4 @@
-public class JavaOperatorsExample {
+public class A_JavaOperatorsExample {
     public static void main(String[] args) {
 
         // 1. Arithmetic Operators

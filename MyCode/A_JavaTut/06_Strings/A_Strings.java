@@ -1,5 +1,4 @@
-public class 01_ Strings{
-public class JavaStringsExample {
+public class A_Strings {
     public static void main(String[] args) {
 
         // Declaring and initializing a String
@@ -37,4 +36,4 @@ public class JavaStringsExample {
         String quote = "He said, \"Java is fun!\"";
         System.out.println(quote);
     }
-}}
+}
