@@ -1,7 +1,9 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Main {
+public class D_SortList {
   public static void main(String[] args) {
 
     // Sort an ArrayList of Strings in Ascending Order

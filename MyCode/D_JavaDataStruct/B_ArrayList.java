@@ -1,10 +1,12 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 // The ArrayList class is a resizable array, which can be found in the java.util package.
 // Unlike arrays, ArrayLists can grow and shrink in size dynamically.
 
 import java.util.ArrayList;
 import java.util.Collections;  // For sorting
 
-public class Main {
+public class B_ArrayList {
   public static void main(String[] args) {
 
     // 1. Create an ArrayList object

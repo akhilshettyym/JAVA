@@ -1,6 +1,8 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 import java.util.HashMap;
 
-public class Main {
+public class E_HashMap {
   public static void main(String[] args) {
 
     // Create a HashMap object called capitalCities

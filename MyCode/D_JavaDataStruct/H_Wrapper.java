@@ -1,4 +1,6 @@
-public class WrapperClassDemo {
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
+public class H_Wrapper {
   public static void main(String[] args) {
     // Create wrapper objects using primitive values
     Integer myInt = 5;

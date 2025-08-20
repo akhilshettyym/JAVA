@@ -1,6 +1,8 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 import java.util.LinkedList;
 
-public class JavaLinkedListTutorial {
+public class C_LinkedList {
     public static void main(String[] args) {
         // Create a LinkedList of Strings
         LinkedList<String> cars = new LinkedList<String>();

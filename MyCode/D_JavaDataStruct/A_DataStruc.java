@@ -1,10 +1,12 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class DataStructuresDemo {
+public class A_DataStruc {
   public static void main(String[] args) {
 
     // 1. ArrayList

@@ -1,7 +1,9 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class Main {
+public class G_Iterator {
   public static void main(String[] args) {
     // Create a HashSet of Strings
     HashSet<String> cars = new HashSet<String>();
@@ -35,7 +37,7 @@ public class Main {
 
     // Loop through the HashSet using Iterator
     System.out.println("Iterating through HashSet using Iterator:");
-    
+
     Iterator<String> it = cars.iterator();
     while (it.hasNext()) {
       String car = it.next();

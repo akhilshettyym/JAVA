@@ -1,6 +1,8 @@
+package akhilshettyym.JAVA.MyCode.D_JavaDataStruct;
+
 import java.util.HashSet;
 
-public class Main {
+public class F_HashSet {
   public static void main(String[] args) {
     // Create a HashSet of Strings
     HashSet<String> cars = new HashSet<String>();
