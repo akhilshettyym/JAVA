@@ -1,4 +1,4 @@
-public class StringConcatenationExample {
+public class B_StringConcatenationExample {
     public static void main(String[] args) {
 
         // Using + operator to concatenate strings

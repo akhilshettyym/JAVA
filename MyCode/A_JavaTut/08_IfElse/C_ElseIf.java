@@ -1,4 +1,4 @@
-public class ElseIf {
+public class C_ElseIf {
     public static void main(String[] args) {
 
         // Declare and initialize the 'time' variable

@@ -1,4 +1,4 @@
-public class ElseStatementExample {
+public class B_ElseStatementExample {
     public static void main(String[] args) {
 
         // Declare and initialize the 'time' variable

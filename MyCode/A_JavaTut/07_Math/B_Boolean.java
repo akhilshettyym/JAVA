@@ -1,4 +1,4 @@
-public class Boolean {
+public class B_Boolean {
     public static void main(String[] args) {
 
         // Boolean values

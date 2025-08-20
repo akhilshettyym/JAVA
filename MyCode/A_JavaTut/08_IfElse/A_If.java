@@ -1,4 +1,4 @@
-public class If {
+public class A_If {
     public static void main(String[] args) {
 
         // Example 1: Simple if statement with direct values

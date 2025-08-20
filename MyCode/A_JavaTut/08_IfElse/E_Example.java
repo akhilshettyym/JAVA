@@ -1,4 +1,4 @@
-public class Example {
+public class E_Example {
     public static void main(String[] args) {
 
         // 1. Door security code check

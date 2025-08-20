@@ -1,4 +1,4 @@
-public class 03_ NumbersStrings{public static void main(String[]args){
+public class C_NumbersStrings{public static void main(String[]args){
 
 // Adding two integers - result is a number
 int a=10;int b=20;int sum=a+b;System.out.println("Adding two integers (10 + 20): "+sum); // Output: 30

@@ -1,4 +1,4 @@
-public class Math {
+public class A_Math {
     public static void main(String[] args) {
 
         // Math.max(x, y) - returns the higher of two values

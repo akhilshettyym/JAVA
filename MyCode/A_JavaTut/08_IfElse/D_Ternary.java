@@ -1,4 +1,4 @@
-public class Ternary {
+public class D_Ternary {
     public static void main(String[] args) {
 
         int time = 20;
