@@ -1,6 +1,8 @@
+package akhilshettyym.JAVA.MyCode.E_FileHandle;
+
 import java.io.File;
 
-public class DeleteFilesAndFolders {
+public class D_DeletingFile {
     public static void main(String[] args) {
         // Example 1: Delete a file
         File fileToDelete = new File("example.txt");

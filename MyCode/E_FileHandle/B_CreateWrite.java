@@ -1,8 +1,10 @@
-import java.io.File;          // Import the File class
-import java.io.FileWriter;    // Import the FileWriter class for writing to files
-import java.io.IOException;   // Import IOException to handle errors
+package akhilshettyym.JAVA.MyCode.E_FileHandle;
 
-public class FileCreationAndWriting {
+import java.io.File; // Import the File class
+import java.io.FileWriter; // Import the FileWriter class for writing to files
+import java.io.IOException; // Import IOException to handle errors
+
+public class B_CreateWrite {
     public static void main(String[] args) {
         // Step 1: Create a new file
         try {

@@ -1,8 +1,10 @@
+package akhilshettyym.JAVA.MyCode.E_FileHandle;
+
 import java.io.File;                // Import File class for file operations
 import java.io.FileNotFoundException; // Import for handling file not found errors
 import java.util.Scanner;           // Import Scanner class for reading file content
 
-public class ReadFileExample {
+public class C_ReadFile {
     public static void main(String[] args) {
         // Define the filename to read
         String filename = "example.txt";

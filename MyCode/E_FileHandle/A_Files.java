@@ -1,7 +1,9 @@
+package akhilshettyym.JAVA.MyCode.E_FileHandle;
+
 import java.io.File;
 import java.io.IOException;
 
-public class FileHandlingDemo {
+public class A_Files {
     public static void main(String[] args) {
         // Specify a filename
         String filename = "example.txt";
