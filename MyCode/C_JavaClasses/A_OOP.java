@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Java OOP Example: Understanding Classes and Objects
 
 /*
@@ -33,7 +35,7 @@ class Car {
 }
 
 // Main class to run the application
-public class Main {
+public class A_OOP {
 
   public static void main(String[] args) {
 

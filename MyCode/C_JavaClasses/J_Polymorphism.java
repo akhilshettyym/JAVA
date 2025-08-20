@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Superclass
 class Animal {
   public void animalSound() {
@@ -22,7 +24,7 @@ class Dog extends Animal {
 }
 
 // Main class to demonstrate polymorphism
-public class Main {
+public class J_Polymorphism {
   public static void main(String[] args) {
     Animal myAnimal = new Animal(); // Base type reference, base object
     Animal myPig = new Pig();       // Base type reference, Pig object

@@ -1,6 +1,8 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Java Class Attributes Demonstration
 
-public class Main {
+public class C_Attributes {
 
   // === Declaring Class Attributes ===
   // These are also called "fields"
@@ -20,7 +22,7 @@ public class Main {
     System.out.println("=== Accessing Class Attributes ===");
 
     // Create an object to access attributes
-    Main myObj = new Main();
+    C_Attributes myObj = new C_Attributes();
     System.out.println("x = " + myObj.x); // Output: 5
     System.out.println("y = " + myObj.y); // Output: 3
 
@@ -33,21 +35,21 @@ public class Main {
     System.out.println("\n=== Overriding Default Value ===");
 
     // Create a new object and override default x value
-    Main anotherObj = new Main();
+    C_Attributes anotherObj = new C_Attributes();
     anotherObj.x = 25;
     System.out.println("anotherObj.x = " + anotherObj.x); // Output: 25
 
     System.out.println("\n=== Using Final Attribute ===");
 
     // Attempting to modify final variable z would cause a compile error
-    // myObj.z = 15; //  Uncommenting this line will cause an error
+    // myObj.z = 15; // Uncommenting this line will cause an error
 
     System.out.println("Final attribute z = " + myObj.z); // Output: 10
 
     System.out.println("\n=== Attribute Values in Multiple Objects ===");
 
-    Main myObj1 = new Main();
-    Main myObj2 = new Main();
+    C_Attributes myObj1 = new C_Attributes();
+    C_Attributes myObj2 = new C_Attributes();
 
     myObj2.x = 99; // Change only in myObj2
 

@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // =============================
 // Java Encapsulation Example
 // =============================
@@ -14,23 +16,23 @@ class Person {
 
   // 3. Public Setter method - allows write access
   public void setName(String newName) {
-    this.name = newName;  // 'this' refers to the current object's attribute
+    this.name = newName; // 'this' refers to the current object's attribute
   }
 }
 
 // Main class to demonstrate Encapsulation
-public class EncapsulationDemo {
+public class G_Encapsulation {
   public static void main(String[] args) {
     Person myObj = new Person();
 
     // These lines will give errors if uncommented
-    // myObj.name = "John";               // Error: name has private access
-    // System.out.println(myObj.name);    // Error: name has private access
+    // myObj.name = "John"; // Error: name has private access
+    // System.out.println(myObj.name); // Error: name has private access
 
-    //  Correct way: use setter to assign value
+    // Correct way: use setter to assign value
     myObj.setName("John");
 
-    //  Correct way: use getter to retrieve value
-    System.out.println("Name: " + myObj.getName());  // Outputs: Name: John
+    // Correct way: use getter to retrieve value
+    System.out.println("Name: " + myObj.getName()); // Outputs: Name: John
   }
 }

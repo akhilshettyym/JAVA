@@ -1,11 +1,13 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // ===============================
 // Java Modifiers - Full Example
 // ===============================
 
 // Abstract class: Cannot be instantiated directly
 abstract class Person {
-    public String fname = "John";  // public attribute
-    public int age = 24;           // public attribute
+    public String fname = "John"; // public attribute
+    public int age = 24; // public attribute
 
     // Abstract method (no body): must be implemented in subclass
     public abstract void study();
@@ -22,21 +24,20 @@ class Student extends Person {
 }
 
 // Main class demonstrating various modifiers
-public class ModifiersDemo {
+public class F_Modifiers {
 
     // =======================
     // Access Modifiers
     // =======================
-    public int publicAttribute = 10;         // Can be accessed anywhere
-    private int privateAttribute = 20;       // Only accessible within this class
-    protected int protectedAttribute = 30;   // Accessible in the same package + subclasses
-    int defaultAttribute = 40;               // Accessible in the same package (default access)
+    public int publicAttribute = 10; // Can be accessed anywhere
+    protected int protectedAttribute = 30; // Accessible in the same package + subclasses
+    int defaultAttribute = 40; // Accessible in the same package (default access)
 
     // =======================
     // Non-Access Modifiers
     // =======================
-    final int finalValue = 100;              // Cannot be changed after assignment
-    static int staticCount = 0;              // Shared by all instances
+    final int finalValue = 100; // Cannot be changed after assignment
+    static int staticCount = 0; // Shared by all instances
 
     // Static method: No object needed to call it
     static void printStaticMessage() {
@@ -60,17 +61,18 @@ public class ModifiersDemo {
         printStaticMessage();
 
         // Create object of ModifiersDemo
-        ModifiersDemo demo = new ModifiersDemo();
+        // ModifiersDemo demo = new ModifiersDemo();
 
         // Accessing attributes
-        System.out.println("Public Attribute: " + demo.publicAttribute);
-        // System.out.println("Private Attribute: " + demo.privateAttribute); //  Not accessible
-        System.out.println("Protected Attribute: " + demo.protectedAttribute);
-        System.out.println("Default Attribute: " + demo.defaultAttribute);
+        // System.out.println("Public Attribute: " + demo.publicAttribute);
+        // // System.out.println("Private Attribute: " + demo.privateAttribute); // Not
+        // // accessible
+        // System.out.println("Protected Attribute: " + demo.protectedAttribute);
+        // System.out.println("Default Attribute: " + demo.defaultAttribute);
 
         // Calling instance methods
-        demo.printPublicMessage();
-        demo.showFinal();
+        // demo.printPublicMessage();
+        // demo.showFinal();
 
         // Demonstrating abstract class and subclass
         Student student = new Student();

@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Simulating everything in one file for demo purposes
 
 // ===============================
@@ -8,7 +10,7 @@ import java.util.Scanner;
 // ===============================
 // Main class demonstrating both
 // ===============================
-public class Main {
+public class H_Packages {
 
   // Simulating a user-defined package class as a static nested class
   // (In real projects, this would go in: mypack/MyPackageClass.java)
@@ -20,12 +22,13 @@ public class Main {
 
   public static void main(String[] args) {
     // ----- Using Built-in Package (Scanner) -----
-    Scanner myScanner = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
     System.out.print("Enter your name: ");
-    String name = myScanner.nextLine();
+    String name = sc.nextLine();
     System.out.println("Hello, " + name + "!");
 
     // ----- Simulating User-defined Package Usage -----
     MyPackageClass.displayMessage();
+    sc.close();
   }
 }

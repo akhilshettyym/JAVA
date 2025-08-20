@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Superclass (Parent)
 class Vehicle {
   // Protected attribute: accessible in subclass
@@ -27,17 +29,18 @@ class Car extends Vehicle {
 }
 
 /*
-======================
-Demonstrating `final`
-======================
-
-// Uncommenting this will throw a compile error
-final class FinalVehicle {
-  public void drive() {
-    System.out.println("Driving safely...");
-  }
-}
-
-// This would fail:
-// class Bus extends FinalVehicle {} //  Error: cannot inherit from final class
-*/
+ * ======================
+ * Demonstrating `final`
+ * ======================
+ * 
+ * // Uncommenting this will throw a compile error
+ * final class FinalVehicle {
+ * public void drive() {
+ * System.out.println("Driving safely...");
+ * }
+ * }
+ * 
+ * // This would fail:
+ * // class Bus extends FinalVehicle {} // Error: cannot inherit from final
+ * class
+ */

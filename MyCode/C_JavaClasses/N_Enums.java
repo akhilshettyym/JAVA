@@ -1,4 +1,6 @@
-public class Main {
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
+public class N_Enums {
 
   // Define enum inside the class
   enum Level {

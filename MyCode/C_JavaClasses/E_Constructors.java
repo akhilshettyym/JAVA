@@ -1,6 +1,8 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Java Constructors Demonstration
 
-public class Main {
+public class E_Constructors {
 
   // === Attribute Declaration ===
   int x;
@@ -9,17 +11,17 @@ public class Main {
 
   // === Default Constructor ===
   // A constructor with no parameters
-  public Main() {
+  public E_Constructors() {
     x = 5; // Initializes x to 5
   }
 
   // === Parameterized Constructor (Single Parameter) ===
-  public Main(int y) {
+  public E_Constructors(int y) {
     x = y; // Initializes x using a passed value
   }
 
   // === Parameterized Constructor (Multiple Parameters) ===
-  public Main(int year, String name) {
+  public E_Constructors(int year, String name) {
     modelYear = year;       // Set modelYear to passed year
     modelName = name;       // Set modelName to passed name
   }
@@ -29,19 +31,19 @@ public class Main {
     System.out.println("=== Default Constructor Example ===");
 
     // Calls the default constructor
-    Main obj1 = new Main();
+    E_Constructors obj1 = new E_Constructors();
     System.out.println("Value of x (default constructor): " + obj1.x); // Output: 5
 
     System.out.println("\n=== Constructor with Parameter ===");
 
     // Calls the constructor with one parameter
-    Main obj2 = new Main(10);
+    E_Constructors obj2 = new E_Constructors(10);
     System.out.println("Value of x (parameterized): " + obj2.x); // Output: 10
 
     System.out.println("\n=== Constructor with Multiple Parameters ===");
 
     // Calls the constructor with multiple parameters
-    Main myCar = new Main(1969, "Mustang");
+    E_Constructors myCar = new E_Constructors(1969, "Mustang");
     System.out.println("Car: " + myCar.modelYear + " " + myCar.modelName); // Output: 1969 Mustang
   }
 }

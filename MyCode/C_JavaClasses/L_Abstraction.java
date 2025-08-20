@@ -1,3 +1,5 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Abstract class
 abstract class Animal {
   // Abstract method (no body)
@@ -17,7 +19,7 @@ class Pig extends Animal {
   }
 }
 
-public class Main {
+public class L_Abstraction {
   public static void main(String[] args) {
     Pig myPig = new Pig();   // Create a Pig object
     myPig.animalSound();     // Calls the abstract method (implemented in Pig)

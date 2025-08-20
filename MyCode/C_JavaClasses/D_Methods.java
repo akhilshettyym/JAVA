@@ -1,16 +1,18 @@
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
 // Main.java
-public class Main {
-    
+public class D_Methods {
+
     // Static method: can be called without creating an object
     static void myStaticMethod() {
         System.out.println("Static methods can be called without creating objects");
     }
-    
+
     // Public method: requires creating an object of Main
     public void myPublicMethod() {
         System.out.println("Public methods must be called by creating objects");
     }
-    
+
     // Method to simulate full throttle of a car
     public void fullThrottle() {
         System.out.println("The car is going as fast as it can!");
@@ -27,28 +29,26 @@ public class Main {
         myStaticMethod();
 
         // To call a public method, create an object of Main
-        Main myCar = new Main();
+        D_Methods myCar = new D_Methods();
 
         // Call the public method on the object
         myCar.myPublicMethod();
 
         // Call the custom methods related to a "car"
-        myCar.fullThrottle();    // Outputs: The car is going as fast as it can!
-        myCar.speed(200);        // Outputs: Max speed is: 200
+        myCar.fullThrottle(); // Outputs: The car is going as fast as it can!
+        myCar.speed(200); // Outputs: Max speed is: 200
     }
 }
-
-
 
 // Second.java
 // This class demonstrates creating an object of Main and calling its methods
 class Second {
     public static void main(String[] args) {
         // Create an object of Main class
-        Main myCar = new Main();
+        D_Methods myCar = new D_Methods();
 
         // Call methods on the object
-        myCar.fullThrottle();   // Outputs: The car is going as fast as it can!
-        myCar.speed(200);       // Outputs: Max speed is: 200
+        myCar.fullThrottle(); // Outputs: The car is going as fast as it can!
+        myCar.speed(200); // Outputs: Max speed is: 200
     }
 }

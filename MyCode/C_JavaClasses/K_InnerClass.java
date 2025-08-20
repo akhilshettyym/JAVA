@@ -1,4 +1,6 @@
-public class Main {
+package akhilshettyym.JAVA.MyCode.C_JavaClasses;
+
+public class K_InnerClass {
 
   // Outer class
   static class OuterClass {
@@ -9,7 +11,7 @@ public class Main {
       int y = 5;
 
       public int sumXY() {
-        return x + y;  // Accessing outer class variable
+        return x + y; // Accessing outer class variable
       }
     }
 
