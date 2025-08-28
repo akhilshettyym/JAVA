@@ -2,7 +2,7 @@ package akhilshettyym.JAVA.DSA.Stacks;
 
 import java.util.Stack;
 
-public class PushAtBottom {
+public class PushAtBottomStack {
     public static void PushAtBottom(int data, Stack<Integer> s) {
         if (s.isEmpty()) {
             s.push(data);

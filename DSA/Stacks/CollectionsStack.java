@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.Stacks;
 import java.util.Stack;
-public class StackCollections {
+public class CollectionsStack {
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
 
