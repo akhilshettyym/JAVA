@@ -36,7 +36,6 @@ public class K_BinarySearch {
             } else {
                 right = mid - 1;
             }
-
         }
         return -1;
     }
