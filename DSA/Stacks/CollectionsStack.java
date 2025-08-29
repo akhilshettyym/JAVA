@@ -1,5 +1,7 @@
 package akhilshettyym.JAVA.DSA.Stacks;
+
 import java.util.Stack;
+
 public class CollectionsStack {
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
@@ -9,7 +11,7 @@ public class CollectionsStack {
         s.push(3);
         s.push(4);
 
-        while(!s.isEmpty()) { 
+        while (!s.isEmpty()) {
             System.out.println(s.peek());
             s.pop();
         }
