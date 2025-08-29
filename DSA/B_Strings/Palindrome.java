@@ -3,7 +3,6 @@ package akhilshettyym.JAVA.DSA.B_Strings;
 public class Palindrome {
     public static void main(String[] args) {
         String str = "malayalam";
-
         System.out.println("Reversed String :" + isPalindrome(str));
     }
 
