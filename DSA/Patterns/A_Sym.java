@@ -16,6 +16,7 @@ public class A_Sym {
             }
             System.out.println();
         }
+        
         sc.close();
     }
 }

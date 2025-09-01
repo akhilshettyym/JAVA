@@ -20,6 +20,7 @@ public class B_Hollow {
             }
             System.out.println();
         }
+        
         sc.close();
     }
 }
