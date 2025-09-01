@@ -14,6 +14,7 @@ public class D_Decreasing {
             }
             System.out.println();
         }
+
         sc.close();
     }
 }
