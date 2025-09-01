@@ -13,6 +13,7 @@ public class F_Number {
             }
             System.out.println();
         }
+        
         sc.close();
     }
 }

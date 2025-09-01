@@ -14,6 +14,7 @@ public class G_InvNum {
             }
             System.out.println();
         }
+        
         sc.close();
     }
 }
