@@ -47,7 +47,7 @@ public class LinkedListt {
     // Deleting from the start
     public void deleteFirst() {
         if (head == null) {
-            System.out.println("The list is empty !");
+            System.out.println("List empty !");
             return;
         }
         size--;
@@ -57,7 +57,7 @@ public class LinkedListt {
     // Deleting from the Last
     public void deleteLast() {
         if (head == null) {
-            System.out.println("The list is empty !");
+            System.out.println("List empty !");
             return;
         }
         size--;
@@ -129,7 +129,7 @@ public class LinkedListt {
     // Print the list
     public void printList() {
         if (head == null) {
-            System.out.print("The list is empty !!");
+            System.out.print("List empty !!");
             return;
         }
         Node currNode = head;

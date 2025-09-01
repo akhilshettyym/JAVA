@@ -41,7 +41,7 @@ public class B_delete {
     // Delete the node from the start
     public void deleteFirst() {
         if (head == null) {
-            System.out.println("The list is empty");
+            System.out.println("List empty");
             return;
         }
         head = head.next;
@@ -49,7 +49,7 @@ public class B_delete {
 
     public void deleteLast() {
         if (head == null) {
-            System.out.println("The list is empty");
+            System.out.println("List empty");
             return;
         }
         if (head.next == null) {
@@ -67,7 +67,7 @@ public class B_delete {
 
     public void printList() {
         if (head == null) {
-            System.out.println("The list is empty !!");
+            System.out.println("List empty !!");
             return;
         }
         Node currNode = head;

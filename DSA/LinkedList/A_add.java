@@ -38,7 +38,7 @@ public class A_add {
 
     public void printList() {
         if (head == null) {
-            System.out.println("The list is empty !!");
+            System.out.println("List Empty !!");
             return;
         }
         Node currNode = head;
