@@ -14,7 +14,6 @@ public class C_Increasing {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }

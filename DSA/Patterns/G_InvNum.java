@@ -13,8 +13,7 @@ public class G_InvNum {
                 System.out.println(j);
             }
             System.out.println();
-        }
-        
+        }        
         sc.close();
     }
 }

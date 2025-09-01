@@ -17,7 +17,6 @@ public class E_Inverted {
             }
             System.out.println();
         }
-
         sc.close();
     }
 }

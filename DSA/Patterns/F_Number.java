@@ -12,8 +12,7 @@ public class F_Number {
                 System.out.println(j + " ");
             }
             System.out.println();
-        }
-        
+        }        
         sc.close();
     }
 }
