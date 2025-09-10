@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.Advanced.Trees;
 
-public class BinaryTrees {
+public class D_BinaryTrees {
     static class Node {
         int data;
         Node left;

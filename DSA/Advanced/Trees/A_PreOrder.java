@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.Advanced.Trees;
 
-public class PreOrder {
+public class A_PreOrder {
     static class Node {
         int data;
         Node left;
