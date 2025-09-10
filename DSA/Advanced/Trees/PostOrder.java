@@ -1,6 +1,6 @@
 package akhilshettyym.JAVA.DSA.Advanced.Trees;
 
-public class PreOrder {
+public class PostOrder {
     static class Node {
         int data;
         Node left;
@@ -29,19 +29,18 @@ public class PreOrder {
         }
     }
 
-    public static void preOrder(Node root) {
+    public static void postOrder(Node root) {
         if (root == null) {
-            // System.out.print("-1 "); // Remove this line if -1 not required.
             return;
         }
+        postOrder(root.left);
+        postOrder(root.right);
         System.out.print(root.data + " ");
-        preOrder(root.left);
-        preOrder(root.right);
     }
 
     public static void main(String[] args) {
         int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         Node root = BinaryTree.buildNode(nodes);
-        preOrder(root);
+        postOrder(root);
     }
 }
