@@ -1,4 +1,4 @@
-package JAVA.DSA.Advanced.Stacks;
+package akhilshettyym.JAVA.DSA.Advanced.Stacks;
 
 import java.util.ArrayList;
 
