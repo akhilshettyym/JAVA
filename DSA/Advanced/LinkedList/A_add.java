@@ -1,4 +1,4 @@
-package JAVA.DSA.Advanced.LinkedList;
+package akhilshettyym.JAVA.DSA.Advanced.LinkedList;
 
 public class A_add {
     Node head;
