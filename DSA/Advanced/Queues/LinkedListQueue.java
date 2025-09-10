@@ -1,4 +1,4 @@
-package JAVA.DSA.Advanced.Queues;
+package akhilshettyym.JAVA.DSA.Advanced.Queues;
 
 import java.util.*;
 
