@@ -2,9 +2,8 @@ package akhilshettyym.JAVA.DSA.Advanced.Trees;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Scanner;
 
-public class Order {
+public class E_LevelOrder {
     static class Node {
         int data;
         Node left;
@@ -28,41 +27,16 @@ public class Order {
             Node newNode = new Node(nodes[idx]);
             newNode.left = buildNode(nodes);
             newNode.right = buildNode(nodes);
+
             return newNode;
         }
-    }
-
-    public static void preOrder(Node root) {
-        if (root == null) {
-            return;
-        }
-        System.out.print(root.data + " ");
-        preOrder(root.left);
-        preOrder(root.right);
-    }
-
-    public static void inOrder(Node root) {
-        if (root == null) {
-            return;
-        }
-        preOrder(root.left);
-        System.out.print(root.data + " ");
-        preOrder(root.right);
-    }
-
-    public static void postOrder(Node root) {
-        if (root == null) {
-            return;
-        }
-        preOrder(root.left);
-        preOrder(root.right);
-        System.out.print(root.data + " ");
     }
 
     public static void levelOrder(Node root) {
         if (root == null) {
             return;
         }
+
         Queue<Node> q = new LinkedList<>();
         q.add(root);
         q.add(null);
@@ -88,30 +62,8 @@ public class Order {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of an array : ");
-        int s = sc.nextInt();
-
-        int nodes[] = new int[s];
-        System.out.print("Enter array elements : ");
-        for (int i = 0; i < s; i++) {
-            if (sc.hasNextInt()) {
-                nodes[i] = sc.nextInt();
-            }
-        }
+        int nodes[] = { 1, 2, 4, -1, -1, 5, -1, -1, 3, -1, 6, -1, -1 };
         Node root = BinaryTree.buildNode(nodes);
-
-        System.out.println("The root of the tree is : " + root.data);
-
-        System.out.print("PreOrder : ");
-        preOrder(root);
-        System.out.print("\nInOrder : ");
-        inOrder(root);
-        System.out.print("\nPostOrder : ");
-        postOrder(root);
-        System.out.println("\nLevelOrder : ");
         levelOrder(root);
-
-        sc.close();
     }
 }
